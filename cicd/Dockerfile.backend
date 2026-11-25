@@ -1,0 +1,37 @@
+# Backend image for FoodSearch. Built from the REPO ROOT, so COPY paths are
+# repo-relative (COPY backend/...).
+#
+# FoodSearch is a stdlib-only Python app — no pip dependencies, no database.
+# The container runs with all Linux capabilities dropped, which a plain
+# Python listener is fine with.
+FROM python:3.12-slim
+
+# Apply the distro's outstanding security updates on every build. Trivy scans
+# this image's OS packages: a finding that HAS a fixed version blocks promotion
+# to production, one with no fix available is only advisory. Keep this directly
+# under the FROM — its cache key is the base image digest, so it re-runs exactly
+# when the base moves.
+RUN apt-get update \
+ && apt-get upgrade -y \
+ && rm -rf /var/lib/apt/lists/*
+
+ENV PYTHONUNBUFFERED=1 \
+    PYTHONDONTWRITEBYTECODE=1 \
+    HOST=0.0.0.0 \
+    PORT=8000
+
+WORKDIR /app
+COPY backend/ .
+
+# Run as a non-root user; the app only reads its bundled data and photos.
+RUN useradd --create-home --uid 10001 app \
+ && chown -R app:app /app
+USER app
+
+EXPOSE 8000
+
+HEALTHCHECK --interval=30s --timeout=3s --start-period=5s --retries=3 \
+  CMD python3 -c "import urllib.request,sys; sys.exit(0 if urllib.request.urlopen('http://127.0.0.1:8000/health', timeout=2).status == 200 else 1)"
+
+# --single-port: the platform probes exactly one port, so never step to another.
+CMD ["python3", "app.py", "--single-port"]

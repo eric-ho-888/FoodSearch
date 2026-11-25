@@ -1,0 +1,15 @@
+# FoodSearch — find nearby food in Singapore.
+#
+# No database: the app is deliberately filesystem-only. Its eateries and dish
+# photos ship inside the image, so there is nothing to provision, migrate or
+# back up — declaring `database:` here would provision an unused one.
+
+description: >
+  FoodSearch helps people find nearby food in Singapore: search by dish or
+  cuisine (satay, mee rebus, nasi lemak, laksa…), filter by category or region
+  (Central, North, North-East, East, West), and see live opening hours, two
+  photos and top reviews for each of 85 places. For diners deciding where to
+  eat; all data is a bundled demo dataset with no external APIs.
+# Skill/plugin version this app was last deployed with — stamped by
+# /substrait:deploy; do not edit by hand.
+scaffold_version: 2026.09.22.075110

@@ -1,0 +1,7090 @@
+{
+  "meta": {
+    "city": "Singapore",
+    "timezone": "Asia/Singapore",
+    "default_center": {
+      "lat": 1.29027,
+      "lng": 103.851959,
+      "label": "Singapore city centre"
+    },
+    "note": "Demo dataset. Listings, operating hours and reviews are illustrative samples for demonstration purposes — confirm details before visiting.",
+    "regions": [
+      "Central",
+      "North",
+      "North-East",
+      "East",
+      "West"
+    ],
+    "verified_note": "verified=true listings are venues confirmed to exist. verified=false listings are indicative entries (mall food courts, chain outlets) whose exact outlet is not confirmed."
+  },
+  "eateries": [
+    {
+      "id": "tian-tian-chicken-rice",
+      "name": "Tian Tian Hainanese Chicken Rice",
+      "category": "Chinese",
+      "area": "Maxwell / Chinatown",
+      "address": "1 Kadayanallur St, #01-10/11 Maxwell Food Centre, Singapore 069184",
+      "lat": 1.2803,
+      "lng": 103.8449,
+      "price": "$",
+      "rating": 4.6,
+      "review_count": 2340,
+      "description": "A Maxwell Food Centre institution serving silky poached chicken over fragrant rice, with a queue that moves faster than it looks.",
+      "specialties": [
+        "hainanese chicken rice",
+        "roast chicken",
+        "chicken rice",
+        "poached chicken"
+      ],
+      "photo_queries": [
+        "Hainanese chicken rice",
+        "roast chicken rice"
+      ],
+      "hours": {
+        "mon": [],
+        "tue": [
+          [
+            "10:00",
+            "19:30"
+          ]
+        ],
+        "wed": [
+          [
+            "10:00",
+            "19:30"
+          ]
+        ],
+        "thu": [
+          [
+            "10:00",
+            "19:30"
+          ]
+        ],
+        "fri": [
+          [
+            "10:00",
+            "19:30"
+          ]
+        ],
+        "sat": [
+          [
+            "10:00",
+            "19:30"
+          ]
+        ],
+        "sun": [
+          [
+            "10:00",
+            "19:30"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Marcus L.",
+          "rating": 5,
+          "date": "2026-11-18",
+          "text": "Chicken was tender and the rice properly fragrant. Go before noon to beat the queue."
+        },
+        {
+          "author": "Priya S.",
+          "rating": 4,
+          "date": "2026-11-06",
+          "text": "Reliable plate of chicken rice. Chilli packs a real punch — ask for extra."
+        }
+      ],
+      "region": "Central",
+      "verified": true
+    },
+    {
+      "id": "hill-street-tai-hwa",
+      "name": "Hill Street Tai Hwa Pork Noodle",
+      "category": "Chinese",
+      "area": "Crawford / Lavender",
+      "address": "466 Crawford Ln, #01-12, Singapore 190466",
+      "lat": 1.3049,
+      "lng": 103.8595,
+      "price": "$",
+      "rating": 4.7,
+      "review_count": 1180,
+      "description": "Michelin-listed bak chor mee with springy noodles, vinegary chilli and a generous hand with liver and pork slices.",
+      "specialties": [
+        "bak chor mee",
+        "minced pork noodles",
+        "wonton mee",
+        "pork liver"
+      ],
+      "photo_queries": [
+        "bak chor mee",
+        "minced pork noodles"
+      ],
+      "hours": {
+        "mon": [],
+        "tue": [
+          [
+            "09:30",
+            "17:00"
+          ]
+        ],
+        "wed": [
+          [
+            "09:30",
+            "17:00"
+          ]
+        ],
+        "thu": [
+          [
+            "09:30",
+            "17:00"
+          ]
+        ],
+        "fri": [
+          [
+            "09:30",
+            "17:00"
+          ]
+        ],
+        "sat": [
+          [
+            "09:30",
+            "17:00"
+          ]
+        ],
+        "sun": [
+          [
+            "09:30",
+            "17:00"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Wei Jie T.",
+          "rating": 5,
+          "date": "2026-11-15",
+          "text": "Worth the wait. The vinegar and chilli balance is exactly right and the liver is cooked perfectly."
+        },
+        {
+          "author": "Aisha R.",
+          "rating": 4,
+          "date": "2026-10-29",
+          "text": "Small stall, big flavour. Portion is modest for the price but the noodles are excellent."
+        }
+      ],
+      "region": "Central",
+      "verified": true
+    },
+    {
+      "id": "song-fa-bak-kut-teh",
+      "name": "Song Fa Bak Kut Teh",
+      "category": "Chinese",
+      "area": "Clarke Quay / New Bridge Rd",
+      "address": "11 New Bridge Rd, #01-01, Singapore 059383",
+      "lat": 1.2855,
+      "lng": 103.8437,
+      "price": "$$",
+      "rating": 4.5,
+      "review_count": 3120,
+      "description": "Peppery Teochew-style pork rib soup served in a shophouse, with free soup refills and crisp you tiao on the side.",
+      "specialties": [
+        "bak kut teh",
+        "pork ribs soup",
+        "peppery soup",
+        "you tiao"
+      ],
+      "photo_queries": [
+        "bak kut teh",
+        "pork ribs soup"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "09:00",
+            "21:15"
+          ]
+        ],
+        "tue": [
+          [
+            "09:00",
+            "21:15"
+          ]
+        ],
+        "wed": [
+          [
+            "09:00",
+            "21:15"
+          ]
+        ],
+        "thu": [
+          [
+            "09:00",
+            "21:15"
+          ]
+        ],
+        "fri": [
+          [
+            "09:00",
+            "21:15"
+          ]
+        ],
+        "sat": [
+          [
+            "09:00",
+            "21:15"
+          ]
+        ],
+        "sun": [
+          [
+            "09:00",
+            "21:15"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Daniel K.",
+          "rating": 5,
+          "date": "2026-11-20",
+          "text": "Rich pepper broth and ribs that fall off the bone. The refill policy keeps the whole table happy."
+        },
+        {
+          "author": "Nurul H.",
+          "rating": 4,
+          "date": "2026-11-02",
+          "text": "Comforting on a rainy evening. Gets busy around 7pm, so come early."
+        }
+      ],
+      "region": "Central",
+      "verified": true
+    },
+    {
+      "id": "jumbo-seafood",
+      "name": "Jumbo Seafood (Riverside Point)",
+      "category": "Chinese",
+      "area": "Clarke Quay",
+      "address": "30 Merchant Rd, #01-01/02 Riverside Point, Singapore 058282",
+      "lat": 1.2895,
+      "lng": 103.8427,
+      "price": "$$$",
+      "rating": 4.4,
+      "review_count": 5640,
+      "description": "Riverside seafood house known for chilli crab with fried mantou, plus black pepper crab and a lively evening crowd.",
+      "specialties": [
+        "chilli crab",
+        "black pepper crab",
+        "seafood",
+        "mantou"
+      ],
+      "photo_queries": [
+        "chilli crab Singapore",
+        "black pepper crab"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "12:00",
+            "15:00"
+          ],
+          [
+            "18:00",
+            "23:00"
+          ]
+        ],
+        "tue": [
+          [
+            "12:00",
+            "15:00"
+          ],
+          [
+            "18:00",
+            "23:00"
+          ]
+        ],
+        "wed": [
+          [
+            "12:00",
+            "15:00"
+          ],
+          [
+            "18:00",
+            "23:00"
+          ]
+        ],
+        "thu": [
+          [
+            "12:00",
+            "15:00"
+          ],
+          [
+            "18:00",
+            "23:00"
+          ]
+        ],
+        "fri": [
+          [
+            "12:00",
+            "15:00"
+          ],
+          [
+            "18:00",
+            "23:00"
+          ]
+        ],
+        "sat": [
+          [
+            "12:00",
+            "15:00"
+          ],
+          [
+            "18:00",
+            "23:00"
+          ]
+        ],
+        "sun": [
+          [
+            "12:00",
+            "15:00"
+          ],
+          [
+            "18:00",
+            "23:00"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Elaine C.",
+          "rating": 5,
+          "date": "2026-11-17",
+          "text": "The chilli crab sauce is the star — order extra mantou to mop it all up. Great river view too."
+        },
+        {
+          "author": "Tom B.",
+          "rating": 4,
+          "date": "2026-11-01",
+          "text": "Pricey but a solid spot for a celebration. Book ahead on weekends."
+        }
+      ],
+      "region": "Central",
+      "verified": true
+    },
+    {
+      "id": "lao-fu-zi-char-kway-teow",
+      "name": "Lao Fu Zi Fried Kway Teow",
+      "category": "Chinese",
+      "area": "Old Airport Road",
+      "address": "51 Old Airport Rd, #01-121 Old Airport Road Food Centre, Singapore 390051",
+      "lat": 1.3081,
+      "lng": 103.8858,
+      "price": "$",
+      "rating": 4.5,
+      "review_count": 980,
+      "description": "Wok hei-heavy char kway teow with cockles and Chinese sausage, from one of the east side's best-loved hawker stalls.",
+      "specialties": [
+        "char kway teow",
+        "fried kway teow",
+        "oyster omelette"
+      ],
+      "photo_queries": [
+        "char kway teow",
+        "fried kway teow"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "11:00",
+            "20:00"
+          ]
+        ],
+        "tue": [],
+        "wed": [
+          [
+            "11:00",
+            "20:00"
+          ]
+        ],
+        "thu": [
+          [
+            "11:00",
+            "20:00"
+          ]
+        ],
+        "fri": [
+          [
+            "11:00",
+            "20:00"
+          ]
+        ],
+        "sat": [
+          [
+            "11:00",
+            "20:00"
+          ]
+        ],
+        "sun": [
+          [
+            "11:00",
+            "20:00"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Kai Siong L.",
+          "rating": 5,
+          "date": "2026-11-12",
+          "text": "Smoky, savoury and not too oily. One of the better plates in the east."
+        },
+        {
+          "author": "Grace W.",
+          "rating": 4,
+          "date": "2026-10-25",
+          "text": "Worth queuing for. Ask for extra cockles if that is your thing."
+        }
+      ],
+      "region": "East",
+      "verified": true
+    },
+    {
+      "id": "tim-ho-wan-jewel",
+      "name": "Tim Ho Wan (Jewel Changi)",
+      "category": "Chinese",
+      "area": "Changi",
+      "address": "78 Airport Blvd, #02-223 Jewel Changi Airport, Singapore 819666",
+      "lat": 1.3602,
+      "lng": 103.9896,
+      "price": "$$",
+      "rating": 4.3,
+      "review_count": 4210,
+      "description": "Dim sum chain famous for its baked BBQ pork buns with a crackly sugar crust, handy before or after a flight.",
+      "specialties": [
+        "dim sum",
+        "baked pork bun",
+        "har gow",
+        "siew mai"
+      ],
+      "photo_queries": [
+        "dim sum",
+        "baked pork bun"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "10:00",
+            "22:00"
+          ]
+        ],
+        "tue": [
+          [
+            "10:00",
+            "22:00"
+          ]
+        ],
+        "wed": [
+          [
+            "10:00",
+            "22:00"
+          ]
+        ],
+        "thu": [
+          [
+            "10:00",
+            "22:00"
+          ]
+        ],
+        "fri": [
+          [
+            "10:00",
+            "22:00"
+          ]
+        ],
+        "sat": [
+          [
+            "10:00",
+            "22:00"
+          ]
+        ],
+        "sun": [
+          [
+            "10:00",
+            "22:00"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Rachel N.",
+          "rating": 5,
+          "date": "2026-11-19",
+          "text": "The pork buns alone are worth the trip. Crisp outside, sweet-savoury inside."
+        },
+        {
+          "author": "Hafiz A.",
+          "rating": 4,
+          "date": "2026-11-03",
+          "text": "Convenient location and quick service. Slightly pricey for dim sum but consistent."
+        }
+      ],
+      "region": "East",
+      "verified": true
+    },
+    {
+      "id": "hajjah-maimunah",
+      "name": "Hajjah Maimunah",
+      "category": "Malay",
+      "area": "Bugis / Jalan Pisang",
+      "address": "11 & 15 Jalan Pisang, Singapore 199078",
+      "lat": 1.3018,
+      "lng": 103.8587,
+      "price": "$",
+      "rating": 4.4,
+      "review_count": 1760,
+      "description": "Nasi padang spread over two shophouses, with rendang, soto ayam and tahu telur drawing a steady lunch crowd.",
+      "specialties": [
+        "nasi padang",
+        "beef rendang",
+        "soto ayam",
+        "tahu telur"
+      ],
+      "photo_queries": [
+        "nasi padang",
+        "beef rendang"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "09:00",
+            "18:30"
+          ]
+        ],
+        "tue": [
+          [
+            "09:00",
+            "18:30"
+          ]
+        ],
+        "wed": [
+          [
+            "09:00",
+            "18:30"
+          ]
+        ],
+        "thu": [
+          [
+            "09:00",
+            "18:30"
+          ]
+        ],
+        "fri": [
+          [
+            "09:00",
+            "18:30"
+          ]
+        ],
+        "sat": [
+          [
+            "09:00",
+            "18:30"
+          ]
+        ],
+        "sun": []
+      },
+      "reviews": [
+        {
+          "author": "Siti Z.",
+          "rating": 5,
+          "date": "2026-11-14",
+          "text": "Rendang is deeply flavoured and the vegetables are not an afterthought. Great value."
+        },
+        {
+          "author": "Jonathan P.",
+          "rating": 4,
+          "date": "2026-10-30",
+          "text": "Arrive early — the popular dishes sell out. Tahu telur is a must."
+        }
+      ],
+      "region": "Central",
+      "verified": true
+    },
+    {
+      "id": "warong-nasi-pariaman",
+      "name": "Warong Nasi Pariaman",
+      "category": "Malay",
+      "area": "North Bridge Road",
+      "address": "738 North Bridge Rd, Singapore 198706",
+      "lat": 1.2987,
+      "lng": 103.854,
+      "price": "$",
+      "rating": 4.3,
+      "review_count": 890,
+      "description": "Old-school Minang nasi padang with dry gulai, grilled chicken and a queue of regulars who know exactly what to order.",
+      "specialties": [
+        "nasi padang",
+        "ayam bakar",
+        "gulai",
+        "beef rendang"
+      ],
+      "photo_queries": [
+        "nasi padang",
+        "ayam bakar"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "10:00",
+            "20:00"
+          ]
+        ],
+        "tue": [
+          [
+            "10:00",
+            "20:00"
+          ]
+        ],
+        "wed": [
+          [
+            "10:00",
+            "20:00"
+          ]
+        ],
+        "thu": [
+          [
+            "10:00",
+            "20:00"
+          ]
+        ],
+        "fri": [
+          [
+            "10:00",
+            "20:00"
+          ]
+        ],
+        "sat": [
+          [
+            "10:00",
+            "20:00"
+          ]
+        ],
+        "sun": [
+          [
+            "10:00",
+            "20:00"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Farah I.",
+          "rating": 5,
+          "date": "2026-11-10",
+          "text": "The gulai here tastes like someone's grandmother is in the kitchen. Generous portions."
+        },
+        {
+          "author": "Chin H.",
+          "rating": 4,
+          "date": "2026-10-22",
+          "text": "Fast, friendly and filling. Go easy on the sambal unless you are brave."
+        }
+      ],
+      "region": "Central",
+      "verified": true
+    },
+    {
+      "id": "geylang-serai-market",
+      "name": "Geylang Serai Market & Food Centre",
+      "category": "Malay",
+      "area": "Geylang Serai",
+      "address": "1 Geylang Serai, Singapore 402001",
+      "lat": 1.3164,
+      "lng": 103.8977,
+      "price": "$",
+      "rating": 4.2,
+      "review_count": 2050,
+      "description": "A one-stop Malay food hall: mee rebus, mee siam, satay and nasi padang all under one roof, plus a wet market downstairs.",
+      "specialties": [
+        "mee rebus",
+        "mee siam",
+        "satay",
+        "nasi padang",
+        "epok epok"
+      ],
+      "photo_queries": [
+        "mee rebus",
+        "mee siam",
+        "satay"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "08:00",
+            "21:00"
+          ]
+        ],
+        "tue": [
+          [
+            "08:00",
+            "21:00"
+          ]
+        ],
+        "wed": [
+          [
+            "08:00",
+            "21:00"
+          ]
+        ],
+        "thu": [
+          [
+            "08:00",
+            "21:00"
+          ]
+        ],
+        "fri": [
+          [
+            "08:00",
+            "21:00"
+          ]
+        ],
+        "sat": [
+          [
+            "08:00",
+            "21:00"
+          ]
+        ],
+        "sun": [
+          [
+            "08:00",
+            "21:00"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Amir R.",
+          "rating": 4,
+          "date": "2026-11-16",
+          "text": "Mee rebus gravy was thick and slightly sweet — exactly what I wanted. Plenty of seating at lunch."
+        },
+        {
+          "author": "Melissa T.",
+          "rating": 4,
+          "date": "2026-10-28",
+          "text": "Brilliant variety. Come hungry and share a few plates between friends."
+        }
+      ],
+      "region": "East",
+      "verified": true
+    },
+    {
+      "id": "selera-rasa-nasi-lemak",
+      "name": "Selera Rasa Nasi Lemak",
+      "category": "Malay",
+      "area": "Adam Road",
+      "address": "2 Adam Rd, #01-02 Adam Road Food Centre, Singapore 289876",
+      "lat": 1.326,
+      "lng": 103.8143,
+      "price": "$",
+      "rating": 4.5,
+      "review_count": 3430,
+      "description": "Coconut-rich rice, crisp fried chicken and sweet-savoury sambal — a breakfast queue that is practically a Singapore ritual.",
+      "specialties": [
+        "nasi lemak",
+        "otah",
+        "fried chicken",
+        "sambal"
+      ],
+      "photo_queries": [
+        "nasi lemak",
+        "nasi lemak fried chicken"
+      ],
+      "hours": {
+        "mon": [],
+        "tue": [
+          [
+            "06:30",
+            "14:00"
+          ]
+        ],
+        "wed": [
+          [
+            "06:30",
+            "14:00"
+          ]
+        ],
+        "thu": [
+          [
+            "06:30",
+            "14:00"
+          ]
+        ],
+        "fri": [
+          [
+            "06:30",
+            "14:00"
+          ]
+        ],
+        "sat": [
+          [
+            "06:30",
+            "14:00"
+          ]
+        ],
+        "sun": [
+          [
+            "06:30",
+            "14:00"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Benny O.",
+          "rating": 5,
+          "date": "2026-11-08",
+          "text": "The rice is fragrant and the chicken stays crunchy under the sambal. Worth the morning queue."
+        },
+        {
+          "author": "Nadia K.",
+          "rating": 4,
+          "date": "2026-10-19",
+          "text": "Classic plate done well. The otah is a good add-on."
+        }
+      ],
+      "region": "Central",
+      "verified": true
+    },
+    {
+      "id": "muthus-curry",
+      "name": "Muthu's Curry",
+      "category": "Indian",
+      "area": "Little India",
+      "address": "138 Race Course Rd, #01-01, Singapore 218591",
+      "lat": 1.3042,
+      "lng": 103.8494,
+      "price": "$$",
+      "rating": 4.3,
+      "review_count": 3980,
+      "description": "Long-running banana-leaf restaurant best known for fish head curry and rich, coconut-forward curries.",
+      "specialties": [
+        "fish head curry",
+        "chicken curry",
+        "banana leaf",
+        "biryani"
+      ],
+      "photo_queries": [
+        "fish head curry",
+        "banana leaf meal"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "10:30",
+            "22:00"
+          ]
+        ],
+        "tue": [
+          [
+            "10:30",
+            "22:00"
+          ]
+        ],
+        "wed": [
+          [
+            "10:30",
+            "22:00"
+          ]
+        ],
+        "thu": [
+          [
+            "10:30",
+            "22:00"
+          ]
+        ],
+        "fri": [
+          [
+            "10:30",
+            "22:00"
+          ]
+        ],
+        "sat": [
+          [
+            "10:30",
+            "22:00"
+          ]
+        ],
+        "sun": [
+          [
+            "10:30",
+            "22:00"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Deepak V.",
+          "rating": 5,
+          "date": "2026-11-11",
+          "text": "Fish head curry is tangy and generous — easily feeds three. Banana leaf rice is a must."
+        },
+        {
+          "author": "Sarah L.",
+          "rating": 4,
+          "date": "2026-10-24",
+          "text": "Bold flavours and quick service. It gets loud and busy at dinner, which is part of the fun."
+        }
+      ],
+      "region": "Central",
+      "verified": true
+    },
+    {
+      "id": "zam-zam",
+      "name": "Zam Zam Restaurant",
+      "category": "Indian",
+      "area": "North Bridge Road",
+      "address": "697/699 North Bridge Rd, Singapore 198675",
+      "lat": 1.3022,
+      "lng": 103.8541,
+      "price": "$",
+      "rating": 4.3,
+      "review_count": 6780,
+      "description": "A century-old murtabak specialist opposite the mosque, with tissue-thin roti and towering portions.",
+      "specialties": [
+        "murtabak",
+        "biryani",
+        "roti prata",
+        "mee goreng"
+      ],
+      "photo_queries": [
+        "murtabak",
+        "biryani"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "07:00",
+            "23:00"
+          ]
+        ],
+        "tue": [
+          [
+            "07:00",
+            "23:00"
+          ]
+        ],
+        "wed": [
+          [
+            "07:00",
+            "23:00"
+          ]
+        ],
+        "thu": [
+          [
+            "07:00",
+            "23:00"
+          ]
+        ],
+        "fri": [
+          [
+            "07:00",
+            "23:00"
+          ]
+        ],
+        "sat": [
+          [
+            "07:00",
+            "23:00"
+          ]
+        ],
+        "sun": [
+          [
+            "07:00",
+            "23:00"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Arun M.",
+          "rating": 5,
+          "date": "2026-11-21",
+          "text": "Murtabak is crisp at the edges and packed with filling. One is enough for two people."
+        },
+        {
+          "author": "Lisa G.",
+          "rating": 4,
+          "date": "2026-11-04",
+          "text": "No-frills and fast. The mutton murtabak with curry on the side is the move."
+        }
+      ],
+      "region": "Central",
+      "verified": true
+    },
+    {
+      "id": "komala-vilas",
+      "name": "Komala Vilas",
+      "category": "Indian",
+      "area": "Little India",
+      "address": "76-78 Serangoon Rd, Singapore 217981",
+      "lat": 1.3053,
+      "lng": 103.8521,
+      "price": "$",
+      "rating": 4.2,
+      "review_count": 2240,
+      "description": "Vegetarian South Indian canteen serving crisp thosai, idli and unlimited banana-leaf rice since 1947.",
+      "specialties": [
+        "thosai",
+        "idli",
+        "vegetarian banana leaf",
+        "poori"
+      ],
+      "photo_queries": [
+        "thosai",
+        "idli"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "07:00",
+            "22:30"
+          ]
+        ],
+        "tue": [
+          [
+            "07:00",
+            "22:30"
+          ]
+        ],
+        "wed": [
+          [
+            "07:00",
+            "22:30"
+          ]
+        ],
+        "thu": [
+          [
+            "07:00",
+            "22:30"
+          ]
+        ],
+        "fri": [
+          [
+            "07:00",
+            "22:30"
+          ]
+        ],
+        "sat": [
+          [
+            "07:00",
+            "22:30"
+          ]
+        ],
+        "sun": [
+          [
+            "07:00",
+            "22:30"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Vikram S.",
+          "rating": 5,
+          "date": "2026-11-13",
+          "text": "Thosai is crisp and the chutneys are fresh. Simple, cheap and satisfying."
+        },
+        {
+          "author": "Anna W.",
+          "rating": 4,
+          "date": "2026-10-27",
+          "text": "Great vegetarian option in Little India. The meal set is excellent value."
+        }
+      ],
+      "region": "Central",
+      "verified": true
+    },
+    {
+      "id": "springleaf-prata-place",
+      "name": "Springleaf Prata Place",
+      "category": "Indian",
+      "area": "Bukit Timah / Rail Mall",
+      "address": "438 Upper Bukit Timah Rd, #01-01 The Rail Mall, Singapore 678055",
+      "lat": 1.3545,
+      "lng": 103.7676,
+      "price": "$",
+      "rating": 4.3,
+      "review_count": 1540,
+      "description": "Modern prata cafe with creative fillings alongside the classics — plaster prata, murtabak and fragrant curries.",
+      "specialties": [
+        "roti prata",
+        "plaster prata",
+        "murtabak",
+        "thosai"
+      ],
+      "photo_queries": [
+        "roti prata",
+        "roti canai"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "07:00",
+            "22:00"
+          ]
+        ],
+        "tue": [
+          [
+            "07:00",
+            "22:00"
+          ]
+        ],
+        "wed": [
+          [
+            "07:00",
+            "22:00"
+          ]
+        ],
+        "thu": [
+          [
+            "07:00",
+            "22:00"
+          ]
+        ],
+        "fri": [
+          [
+            "07:00",
+            "22:00"
+          ]
+        ],
+        "sat": [
+          [
+            "07:00",
+            "22:00"
+          ]
+        ],
+        "sun": [
+          [
+            "07:00",
+            "22:00"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Hui Ling C.",
+          "rating": 4,
+          "date": "2026-11-09",
+          "text": "Prata is flaky and the fish curry is properly spiced. Good supper spot."
+        },
+        {
+          "author": "Ravi N.",
+          "rating": 5,
+          "date": "2026-10-21",
+          "text": "The plaster prata is a guilty pleasure. Friendly staff even at closing time."
+        }
+      ],
+      "region": "West",
+      "verified": true
+    },
+    {
+      "id": "ps-cafe-harding",
+      "name": "PS.Cafe (Harding Road)",
+      "category": "Western",
+      "area": "Dempsey Hill",
+      "address": "28B Harding Rd, Singapore 249549",
+      "lat": 1.3316,
+      "lng": 103.8237,
+      "price": "$$$",
+      "rating": 4.3,
+      "review_count": 5120,
+      "description": "Leafy Dempsey brunch spot known for truffle fries, hearty burgers and a very pleasant patio.",
+      "specialties": [
+        "brunch",
+        "truffle fries",
+        "burger",
+        "cake"
+      ],
+      "photo_queries": [
+        "brunch cafe food",
+        "truffle fries"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "09:00",
+            "22:00"
+          ]
+        ],
+        "tue": [
+          [
+            "09:00",
+            "22:00"
+          ]
+        ],
+        "wed": [
+          [
+            "09:00",
+            "22:00"
+          ]
+        ],
+        "thu": [
+          [
+            "09:00",
+            "22:00"
+          ]
+        ],
+        "fri": [
+          [
+            "09:00",
+            "22:00"
+          ]
+        ],
+        "sat": [
+          [
+            "09:00",
+            "22:00"
+          ]
+        ],
+        "sun": [
+          [
+            "09:00",
+            "22:00"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Cheryl T.",
+          "rating": 5,
+          "date": "2026-11-22",
+          "text": "Truffle fries are still the benchmark. Sit outside if the weather is kind."
+        },
+        {
+          "author": "Mark D.",
+          "rating": 4,
+          "date": "2026-11-05",
+          "text": "Solid brunch with generous portions. Service can slow down on weekend mornings."
+        }
+      ],
+      "region": "Central",
+      "verified": true
+    },
+    {
+      "id": "wild-honey",
+      "name": "Wild Honey",
+      "category": "Western",
+      "area": "Orchard",
+      "address": "333A Orchard Rd, #03-02 Mandarin Gallery, Singapore 238897",
+      "lat": 1.304,
+      "lng": 103.836,
+      "price": "$$$",
+      "rating": 4.4,
+      "review_count": 4870,
+      "description": "All-day breakfast restaurant plating breakfasts from around the world, from eggs Benedict to fluffy pancakes.",
+      "specialties": [
+        "all-day breakfast",
+        "pancakes",
+        "eggs benedict",
+        "brunch"
+      ],
+      "photo_queries": [
+        "pancakes breakfast",
+        "eggs benedict"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "09:00",
+            "22:00"
+          ]
+        ],
+        "tue": [
+          [
+            "09:00",
+            "22:00"
+          ]
+        ],
+        "wed": [
+          [
+            "09:00",
+            "22:00"
+          ]
+        ],
+        "thu": [
+          [
+            "09:00",
+            "22:00"
+          ]
+        ],
+        "fri": [
+          [
+            "09:00",
+            "22:00"
+          ]
+        ],
+        "sat": [
+          [
+            "09:00",
+            "22:00"
+          ]
+        ],
+        "sun": [
+          [
+            "09:00",
+            "22:00"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Janelle L.",
+          "rating": 5,
+          "date": "2026-11-15",
+          "text": "Pancakes were fluffy and the portions generous. Perfect slow weekend breakfast."
+        },
+        {
+          "author": "Owen F.",
+          "rating": 4,
+          "date": "2026-10-31",
+          "text": "Great eggs Benedict and good coffee. Expect a wait for tables at brunch."
+        }
+      ],
+      "region": "Central",
+      "verified": true
+    },
+    {
+      "id": "merci-marcel",
+      "name": "Merci Marcel (Tiong Bahru)",
+      "category": "Western",
+      "area": "Tiong Bahru",
+      "address": "56 Eng Hoon St, #01-68, Singapore 160056",
+      "lat": 1.2864,
+      "lng": 103.8299,
+      "price": "$$$",
+      "rating": 4.4,
+      "review_count": 2310,
+      "description": "French-inspired bistro and wine bar with a cheese counter, pasta and a charming neighbourhood patio.",
+      "specialties": [
+        "french",
+        "pasta",
+        "cheese platter",
+        "brunch"
+      ],
+      "photo_queries": [
+        "french pasta",
+        "cheese platter"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "08:00",
+            "22:30"
+          ]
+        ],
+        "tue": [
+          [
+            "08:00",
+            "22:30"
+          ]
+        ],
+        "wed": [
+          [
+            "08:00",
+            "22:30"
+          ]
+        ],
+        "thu": [
+          [
+            "08:00",
+            "22:30"
+          ]
+        ],
+        "fri": [
+          [
+            "08:00",
+            "22:30"
+          ]
+        ],
+        "sat": [
+          [
+            "08:00",
+            "22:30"
+          ]
+        ],
+        "sun": [
+          [
+            "08:00",
+            "22:30"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Camille R.",
+          "rating": 5,
+          "date": "2026-11-07",
+          "text": "Feels like a proper neighbourhood bistro. Cheese selection is excellent and the staff know it well."
+        },
+        {
+          "author": "Derek Y.",
+          "rating": 4,
+          "date": "2026-10-20",
+          "text": "Lovely space and good pasta. A bit pricey but great for a relaxed dinner."
+        }
+      ],
+      "region": "Central",
+      "verified": true
+    },
+    {
+      "id": "sarnies",
+      "name": "Sarnies",
+      "category": "Western",
+      "area": "Telok Ayer",
+      "address": "136 Telok Ayer St, Singapore 068601",
+      "lat": 1.2813,
+      "lng": 103.8476,
+      "price": "$$",
+      "rating": 4.2,
+      "review_count": 3650,
+      "description": "Cafe in a heritage shophouse serving generous sandwiches, all-day brunch and properly strong coffee.",
+      "specialties": [
+        "sandwich",
+        "brunch",
+        "coffee",
+        "burger"
+      ],
+      "photo_queries": [
+        "sandwich cafe",
+        "flat white coffee"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "07:30",
+            "21:00"
+          ]
+        ],
+        "tue": [
+          [
+            "07:30",
+            "21:00"
+          ]
+        ],
+        "wed": [
+          [
+            "07:30",
+            "21:00"
+          ]
+        ],
+        "thu": [
+          [
+            "07:30",
+            "21:00"
+          ]
+        ],
+        "fri": [
+          [
+            "07:30",
+            "21:00"
+          ]
+        ],
+        "sat": [
+          [
+            "08:30",
+            "17:00"
+          ]
+        ],
+        "sun": [
+          [
+            "08:30",
+            "17:00"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Rina P.",
+          "rating": 4,
+          "date": "2026-11-18",
+          "text": "Coffee is consistently good and the sandwiches are hefty. Good CBD lunch escape."
+        },
+        {
+          "author": "Alex M.",
+          "rating": 4,
+          "date": "2026-11-02",
+          "text": "Busy at lunch but service keeps up. The breakfast plate is my usual order."
+        }
+      ],
+      "region": "Central",
+      "verified": true
+    },
+    {
+      "id": "keisuke-tonkotsu-king",
+      "name": "Keisuke Tonkotsu King",
+      "category": "Japanese",
+      "area": "Tanjong Pagar",
+      "address": "1 Tanjong Pagar Plz, #01-01, Singapore 082001",
+      "lat": 1.2767,
+      "lng": 103.8439,
+      "price": "$$",
+      "rating": 4.5,
+      "review_count": 7240,
+      "description": "Cult-favourite tonkotsu ramen shop with rich broth, free egg and beansprouts, and a queue that starts before opening.",
+      "specialties": [
+        "tonkotsu ramen",
+        "ramen",
+        "gyoza",
+        "chashu"
+      ],
+      "photo_queries": [
+        "tonkotsu ramen",
+        "gyoza"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "11:30",
+            "22:00"
+          ]
+        ],
+        "tue": [
+          [
+            "11:30",
+            "22:00"
+          ]
+        ],
+        "wed": [
+          [
+            "11:30",
+            "22:00"
+          ]
+        ],
+        "thu": [
+          [
+            "11:30",
+            "22:00"
+          ]
+        ],
+        "fri": [
+          [
+            "11:30",
+            "22:00"
+          ]
+        ],
+        "sat": [
+          [
+            "11:30",
+            "22:00"
+          ]
+        ],
+        "sun": [
+          [
+            "11:30",
+            "22:00"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Yuki T.",
+          "rating": 5,
+          "date": "2026-11-20",
+          "text": "Broth is thick and deeply savoury without being overwhelming. Free egg is a nice touch."
+        },
+        {
+          "author": "Sharon K.",
+          "rating": 4,
+          "date": "2026-11-03",
+          "text": "Excellent ramen, tiny shop. Go off-peak or be ready to queue."
+        }
+      ],
+      "region": "Central",
+      "verified": true
+    },
+    {
+      "id": "ramen-nagi-ion",
+      "name": "Ramen Nagi (ION Orchard)",
+      "category": "Japanese",
+      "area": "Orchard",
+      "address": "2 Orchard Turn, #04-12 ION Orchard, Singapore 238801",
+      "lat": 1.3042,
+      "lng": 103.8325,
+      "price": "$$",
+      "rating": 4.3,
+      "review_count": 5980,
+      "description": "Customisable ramen bowls with a fiery red king and rich butao broth, tucked inside ION Orchard.",
+      "specialties": [
+        "ramen",
+        "spicy ramen",
+        "tsukemen",
+        "chashu"
+      ],
+      "photo_queries": [
+        "ramen bowl",
+        "spicy ramen"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "11:00",
+            "22:00"
+          ]
+        ],
+        "tue": [
+          [
+            "11:00",
+            "22:00"
+          ]
+        ],
+        "wed": [
+          [
+            "11:00",
+            "22:00"
+          ]
+        ],
+        "thu": [
+          [
+            "11:00",
+            "22:00"
+          ]
+        ],
+        "fri": [
+          [
+            "11:00",
+            "22:00"
+          ]
+        ],
+        "sat": [
+          [
+            "11:00",
+            "22:00"
+          ]
+        ],
+        "sun": [
+          [
+            "11:00",
+            "22:00"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Hiroshi N.",
+          "rating": 4,
+          "date": "2026-11-16",
+          "text": "Rich broth and a good level of spice in the Red King. Noodles have a nice bite."
+        },
+        {
+          "author": "Michelle C.",
+          "rating": 4,
+          "date": "2026-10-29",
+          "text": "Fun to customise your bowl. Gets crowded at dinner but the queue moves."
+        }
+      ],
+      "region": "Central",
+      "verified": true
+    },
+    {
+      "id": "sushi-tei-raffles-city",
+      "name": "Sushi Tei (Raffles City)",
+      "category": "Japanese",
+      "area": "City Hall",
+      "address": "252 North Bridge Rd, #03-002 Raffles City, Singapore 179103",
+      "lat": 1.2939,
+      "lng": 103.8528,
+      "price": "$$",
+      "rating": 4.1,
+      "review_count": 3410,
+      "description": "Dependable conveyor-belt sushi chain with a wide menu of sashimi, bento sets and cooked dishes.",
+      "specialties": [
+        "sushi",
+        "sashimi",
+        "bento",
+        "tempura"
+      ],
+      "photo_queries": [
+        "sushi platter",
+        "sashimi"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "11:30",
+            "22:00"
+          ]
+        ],
+        "tue": [
+          [
+            "11:30",
+            "22:00"
+          ]
+        ],
+        "wed": [
+          [
+            "11:30",
+            "22:00"
+          ]
+        ],
+        "thu": [
+          [
+            "11:30",
+            "22:00"
+          ]
+        ],
+        "fri": [
+          [
+            "11:30",
+            "22:00"
+          ]
+        ],
+        "sat": [
+          [
+            "11:30",
+            "22:00"
+          ]
+        ],
+        "sun": [
+          [
+            "11:30",
+            "22:00"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Wei Ming H.",
+          "rating": 4,
+          "date": "2026-11-12",
+          "text": "Reliable sushi at a fair price. The salmon sashimi is fresh and generously cut."
+        },
+        {
+          "author": "Claire B.",
+          "rating": 4,
+          "date": "2026-10-26",
+          "text": "Good family option in the mall. Bento sets are decent value."
+        }
+      ],
+      "region": "Central",
+      "verified": true
+    },
+    {
+      "id": "man-man-unagi",
+      "name": "Man Man Japanese Unagi Restaurant",
+      "category": "Japanese",
+      "area": "Keong Saik",
+      "address": "1 Keong Saik Rd, #01-01, Singapore 089109",
+      "lat": 1.2794,
+      "lng": 103.8408,
+      "price": "$$$",
+      "rating": 4.6,
+      "review_count": 2080,
+      "description": "Unagi specialist grilling freshwater eel to order, served over rice in lacquered boxes or as hitsumabushi.",
+      "specialties": [
+        "unagi",
+        "grilled eel",
+        "hitsumabushi",
+        "eel rice"
+      ],
+      "photo_queries": [
+        "unagi don",
+        "grilled eel"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "11:30",
+            "14:30"
+          ],
+          [
+            "17:30",
+            "21:30"
+          ]
+        ],
+        "tue": [
+          [
+            "11:30",
+            "14:30"
+          ],
+          [
+            "17:30",
+            "21:30"
+          ]
+        ],
+        "wed": [
+          [
+            "11:30",
+            "14:30"
+          ],
+          [
+            "17:30",
+            "21:30"
+          ]
+        ],
+        "thu": [
+          [
+            "11:30",
+            "14:30"
+          ],
+          [
+            "17:30",
+            "21:30"
+          ]
+        ],
+        "fri": [
+          [
+            "11:30",
+            "14:30"
+          ],
+          [
+            "17:30",
+            "21:30"
+          ]
+        ],
+        "sat": [
+          [
+            "11:30",
+            "14:30"
+          ],
+          [
+            "17:30",
+            "21:30"
+          ]
+        ],
+        "sun": []
+      },
+      "reviews": [
+        {
+          "author": "Kenneth W.",
+          "rating": 5,
+          "date": "2026-11-17",
+          "text": "Eel is grilled beautifully — crisp skin, soft flesh. The hitsumabushi set is worth it."
+        },
+        {
+          "author": "Aiko S.",
+          "rating": 5,
+          "date": "2026-10-30",
+          "text": "Tastes like Tokyo. Small space, so book ahead for dinner."
+        }
+      ],
+      "region": "Central",
+      "verified": true
+    },
+    {
+      "id": "todamgol",
+      "name": "Todamgol",
+      "category": "Korean",
+      "area": "Tanjong Pagar",
+      "address": "31 Tanjong Pagar Rd, Singapore 088454",
+      "lat": 1.2788,
+      "lng": 103.8434,
+      "price": "$$",
+      "rating": 4.4,
+      "review_count": 1970,
+      "description": "Cosy Korean BBQ and stew house with charcoal grills, banchan refills and a lively dinner atmosphere.",
+      "specialties": [
+        "korean bbq",
+        "kimchi stew",
+        "seafood pancake",
+        "banchan"
+      ],
+      "photo_queries": [
+        "korean barbecue",
+        "kimchi pancake"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "11:30",
+            "23:00"
+          ]
+        ],
+        "tue": [
+          [
+            "11:30",
+            "23:00"
+          ]
+        ],
+        "wed": [
+          [
+            "11:30",
+            "23:00"
+          ]
+        ],
+        "thu": [
+          [
+            "11:30",
+            "23:00"
+          ]
+        ],
+        "fri": [
+          [
+            "11:30",
+            "23:00"
+          ]
+        ],
+        "sat": [
+          [
+            "11:30",
+            "23:00"
+          ]
+        ],
+        "sun": [
+          [
+            "11:30",
+            "23:00"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Jae H.",
+          "rating": 5,
+          "date": "2026-11-19",
+          "text": "Proper Korean BBQ with good cuts and plenty of banchan. Staff help with the grilling."
+        },
+        {
+          "author": "Tanya L.",
+          "rating": 4,
+          "date": "2026-11-06",
+          "text": "Kimchi stew was bubbling hot and full of pork. Smoky clothes afterwards, but worth it."
+        }
+      ],
+      "region": "Central",
+      "verified": true
+    },
+    {
+      "id": "kko-kko-nara",
+      "name": "Kko Kko Nara",
+      "category": "Korean",
+      "area": "Tanjong Pagar",
+      "address": "68 Tanjong Pagar Rd, Singapore 088489",
+      "lat": 1.278,
+      "lng": 103.8428,
+      "price": "$$",
+      "rating": 4.3,
+      "review_count": 1450,
+      "description": "Korean fried chicken and late-night stews, with crispy double-fried wings and a generous army stew.",
+      "specialties": [
+        "korean fried chicken",
+        "army stew",
+        "budae jjigae",
+        "fried chicken"
+      ],
+      "photo_queries": [
+        "korean fried chicken",
+        "budae jjigae"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "11:30",
+            "02:00"
+          ]
+        ],
+        "tue": [
+          [
+            "11:30",
+            "02:00"
+          ]
+        ],
+        "wed": [
+          [
+            "11:30",
+            "02:00"
+          ]
+        ],
+        "thu": [
+          [
+            "11:30",
+            "02:00"
+          ]
+        ],
+        "fri": [
+          [
+            "11:30",
+            "02:00"
+          ]
+        ],
+        "sat": [
+          [
+            "11:30",
+            "02:00"
+          ]
+        ],
+        "sun": [
+          [
+            "11:30",
+            "02:00"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Dong W.",
+          "rating": 5,
+          "date": "2026-11-21",
+          "text": "Chicken stays crunchy even with sauce. Perfect late-night food."
+        },
+        {
+          "author": "Priyanka G.",
+          "rating": 4,
+          "date": "2026-11-08",
+          "text": "Army stew is huge and great for sharing. Service is fast even when full."
+        }
+      ],
+      "region": "Central",
+      "verified": true
+    },
+    {
+      "id": "sbcd-korean-tofu-house",
+      "name": "SBCD Korean Tofu House",
+      "category": "Korean",
+      "area": "Tanjong Pagar",
+      "address": "90 Tanjong Pagar Rd, Singapore 088521",
+      "lat": 1.2766,
+      "lng": 103.8437,
+      "price": "$",
+      "rating": 4.2,
+      "review_count": 1320,
+      "description": "Bubbling sundubu jjigae sets with purple rice, banchan and a choice of spice level — quick and comforting.",
+      "specialties": [
+        "sundubu jjigae",
+        "tofu stew",
+        "bibimbap",
+        "banchan"
+      ],
+      "photo_queries": [
+        "sundubu jjigae",
+        "bibimbap"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "11:00",
+            "22:00"
+          ]
+        ],
+        "tue": [
+          [
+            "11:00",
+            "22:00"
+          ]
+        ],
+        "wed": [
+          [
+            "11:00",
+            "22:00"
+          ]
+        ],
+        "thu": [
+          [
+            "11:00",
+            "22:00"
+          ]
+        ],
+        "fri": [
+          [
+            "11:00",
+            "22:00"
+          ]
+        ],
+        "sat": [
+          [
+            "11:00",
+            "22:00"
+          ]
+        ],
+        "sun": [
+          [
+            "11:00",
+            "22:00"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Mei Lin S.",
+          "rating": 4,
+          "date": "2026-11-13",
+          "text": "Stew arrives boiling and the tofu is silky. Good value set with rice and banchan."
+        },
+        {
+          "author": "Ethan C.",
+          "rating": 4,
+          "date": "2026-10-25",
+          "text": "Comfort food done right. Ask for mild if you are not used to Korean heat."
+        }
+      ],
+      "region": "Central",
+      "verified": true
+    },
+    {
+      "id": "newton-food-centre",
+      "name": "Newton Food Centre",
+      "category": "Others",
+      "area": "Newton",
+      "address": "500 Clemenceau Ave North, Singapore 229495",
+      "lat": 1.312,
+      "lng": 103.8386,
+      "price": "$",
+      "rating": 4.1,
+      "review_count": 8940,
+      "description": "Sprawling hawker centre known for satay, BBQ seafood and oyster omelette, bustling late into the night.",
+      "specialties": [
+        "satay",
+        "oyster omelette",
+        "hokkien mee",
+        "bbq seafood",
+        "carrot cake"
+      ],
+      "photo_queries": [
+        "satay",
+        "oyster omelette",
+        "hokkien mee"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "11:00",
+            "02:00"
+          ]
+        ],
+        "tue": [
+          [
+            "11:00",
+            "02:00"
+          ]
+        ],
+        "wed": [
+          [
+            "11:00",
+            "02:00"
+          ]
+        ],
+        "thu": [
+          [
+            "11:00",
+            "02:00"
+          ]
+        ],
+        "fri": [
+          [
+            "11:00",
+            "02:00"
+          ]
+        ],
+        "sat": [
+          [
+            "11:00",
+            "02:00"
+          ]
+        ],
+        "sun": [
+          [
+            "11:00",
+            "02:00"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Gareth T.",
+          "rating": 4,
+          "date": "2026-11-22",
+          "text": "Satay stalls are the highlight. Come with a group so you can order across several stalls."
+        },
+        {
+          "author": "Serena H.",
+          "rating": 4,
+          "date": "2026-11-09",
+          "text": "Lively and a bit chaotic, which is half the fun. Oyster omelette was crisp and generous."
+        }
+      ],
+      "region": "Central",
+      "verified": true
+    },
+    {
+      "id": "satay-by-the-bay",
+      "name": "Satay by the Bay",
+      "category": "Others",
+      "area": "Gardens by the Bay",
+      "address": "18 Marina Gardens Dr, #01-19, Singapore 018953",
+      "lat": 1.281,
+      "lng": 103.869,
+      "price": "$",
+      "rating": 4.0,
+      "review_count": 3260,
+      "description": "Open-air satay garden beside the Supertrees, with smoky skewers, BBQ chicken wings and cold drinks.",
+      "specialties": [
+        "satay",
+        "bbq chicken wings",
+        "otah",
+        "grilled seafood"
+      ],
+      "photo_queries": [
+        "chicken satay",
+        "bbq chicken wings"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "15:00",
+            "23:00"
+          ]
+        ],
+        "tue": [
+          [
+            "15:00",
+            "23:00"
+          ]
+        ],
+        "wed": [
+          [
+            "15:00",
+            "23:00"
+          ]
+        ],
+        "thu": [
+          [
+            "15:00",
+            "23:00"
+          ]
+        ],
+        "fri": [
+          [
+            "15:00",
+            "23:00"
+          ]
+        ],
+        "sat": [
+          [
+            "11:00",
+            "23:00"
+          ]
+        ],
+        "sun": [
+          [
+            "11:00",
+            "23:00"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Nina A.",
+          "rating": 4,
+          "date": "2026-11-16",
+          "text": "Satay is smoky and the peanut sauce is generous. Nice spot for an evening walk afterwards."
+        },
+        {
+          "author": "Bryan L.",
+          "rating": 4,
+          "date": "2026-10-28",
+          "text": "A little touristy but convenient and tasty. Chicken wings are a good side."
+        }
+      ],
+      "region": "Central",
+      "verified": true
+    },
+    {
+      "id": "328-katong-laksa",
+      "name": "328 Katong Laksa",
+      "category": "Others",
+      "area": "Katong / East Coast",
+      "address": "51 East Coast Rd, Singapore 428770",
+      "lat": 1.3036,
+      "lng": 103.9046,
+      "price": "$",
+      "rating": 4.2,
+      "review_count": 4680,
+      "description": "Peranakan-style laksa with thick coconut gravy and short-cut noodles, eaten with a spoon and plenty of chilli.",
+      "specialties": [
+        "laksa",
+        "katong laksa",
+        "otah",
+        "peranakan"
+      ],
+      "photo_queries": [
+        "laksa",
+        "otah"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "09:00",
+            "21:00"
+          ]
+        ],
+        "tue": [
+          [
+            "09:00",
+            "21:00"
+          ]
+        ],
+        "wed": [
+          [
+            "09:00",
+            "21:00"
+          ]
+        ],
+        "thu": [
+          [
+            "09:00",
+            "21:00"
+          ]
+        ],
+        "fri": [
+          [
+            "09:00",
+            "21:00"
+          ]
+        ],
+        "sat": [
+          [
+            "09:00",
+            "21:00"
+          ]
+        ],
+        "sun": [
+          [
+            "09:00",
+            "21:00"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Lena K.",
+          "rating": 5,
+          "date": "2026-11-18",
+          "text": "Gravy is thick and coconutty, and the cockles are fresh. Proper Katong laksa."
+        },
+        {
+          "author": "Sam R.",
+          "rating": 4,
+          "date": "2026-11-01",
+          "text": "Simple menu, done well. Add otah and a lime juice."
+        }
+      ],
+      "region": "East",
+      "verified": true
+    },
+    {
+      "id": "tiong-bahru-bakery",
+      "name": "Tiong Bahru Bakery",
+      "category": "Others",
+      "area": "Tiong Bahru",
+      "address": "56 Eng Hoon St, #01-70, Singapore 160056",
+      "lat": 1.2853,
+      "lng": 103.8326,
+      "price": "$",
+      "rating": 4.3,
+      "review_count": 5330,
+      "description": "French bakery famous for flaky croissants and kouign-amann, with pavement seating in a heritage neighbourhood.",
+      "specialties": [
+        "croissant",
+        "kouign-amann",
+        "coffee",
+        "pastry",
+        "bread"
+      ],
+      "photo_queries": [
+        "croissant",
+        "kouign amann"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "07:00",
+            "19:00"
+          ]
+        ],
+        "tue": [
+          [
+            "07:00",
+            "19:00"
+          ]
+        ],
+        "wed": [
+          [
+            "07:00",
+            "19:00"
+          ]
+        ],
+        "thu": [
+          [
+            "07:00",
+            "19:00"
+          ]
+        ],
+        "fri": [
+          [
+            "07:00",
+            "19:00"
+          ]
+        ],
+        "sat": [
+          [
+            "07:00",
+            "19:00"
+          ]
+        ],
+        "sun": [
+          [
+            "07:00",
+            "19:00"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Chloe D.",
+          "rating": 5,
+          "date": "2026-11-14",
+          "text": "Croissants are shatteringly crisp. The kouign-amann is dangerously good."
+        },
+        {
+          "author": "Ibrahim S.",
+          "rating": 4,
+          "date": "2026-10-27",
+          "text": "Great pastries and coffee. Weekend mornings are busy but the queue is manageable."
+        }
+      ],
+      "region": "Central",
+      "verified": true
+    },
+    {
+      "id": "ah-chew-desserts",
+      "name": "Ah Chew Desserts",
+      "category": "Others",
+      "area": "Bugis / Liang Seah",
+      "address": "1 Liang Seah St, #01-03, Singapore 189022",
+      "lat": 1.2984,
+      "lng": 103.8551,
+      "price": "$",
+      "rating": 4.2,
+      "review_count": 2760,
+      "description": "Traditional Cantonese dessert shop with mango sago, chendol and tau suan — a refreshing stop after a Liang Seah meal.",
+      "specialties": [
+        "mango sago",
+        "chendol",
+        "dessert",
+        "tau suan",
+        "coconut ice"
+      ],
+      "photo_queries": [
+        "mango sago",
+        "chendol"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "12:30",
+            "23:30"
+          ]
+        ],
+        "tue": [
+          [
+            "12:30",
+            "23:30"
+          ]
+        ],
+        "wed": [
+          [
+            "12:30",
+            "23:30"
+          ]
+        ],
+        "thu": [
+          [
+            "12:30",
+            "23:30"
+          ]
+        ],
+        "fri": [
+          [
+            "12:30",
+            "23:30"
+          ]
+        ],
+        "sat": [
+          [
+            "12:30",
+            "23:30"
+          ]
+        ],
+        "sun": [
+          [
+            "12:30",
+            "23:30"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Wen Qi O.",
+          "rating": 4,
+          "date": "2026-11-20",
+          "text": "Mango sago is cold, creamy and not too sweet. Exactly what a hot evening needs."
+        },
+        {
+          "author": "Daphne L.",
+          "rating": 4,
+          "date": "2026-11-04",
+          "text": "Classic dessert shop with a big menu. Chendol is generous with the gula melaka."
+        }
+      ],
+      "region": "Central",
+      "verified": true
+    },
+    {
+      "id": "chong-pang-nasi-lemak",
+      "name": "Chong Pang Nasi Lemak",
+      "category": "Malay",
+      "region": "North",
+      "area": "Yishun / Chong Pang",
+      "address": "105 Yishun Ring Rd, Singapore 760105",
+      "lat": 1.4382,
+      "lng": 103.8275,
+      "price": "$",
+      "rating": 4.3,
+      "review_count": 1890,
+      "description": "A Yishun supper stalwart: coconut rice, crisp fried chicken and sambal, served late into the night.",
+      "specialties": [
+        "nasi lemak",
+        "fried chicken",
+        "otah",
+        "sambal"
+      ],
+      "photo_queries": [
+        "nasi lemak",
+        "nasi padang"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "17:00",
+            "03:00"
+          ]
+        ],
+        "tue": [
+          [
+            "17:00",
+            "03:00"
+          ]
+        ],
+        "wed": [
+          [
+            "17:00",
+            "03:00"
+          ]
+        ],
+        "thu": [
+          [
+            "17:00",
+            "03:00"
+          ]
+        ],
+        "fri": [
+          [
+            "17:00",
+            "03:00"
+          ]
+        ],
+        "sat": [
+          [
+            "17:00",
+            "03:00"
+          ]
+        ],
+        "sun": [
+          [
+            "17:00",
+            "03:00"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Wei J.",
+          "rating": 5,
+          "date": "2026-11-15",
+          "text": "The queue moves quickly and the fried chicken is still hot at midnight. Best late-night plate in the north."
+        },
+        {
+          "author": "Hafiz M.",
+          "rating": 4,
+          "date": "2026-10-24",
+          "text": "Rice is fragrant and the sambal has a proper kick. Parking around Chong Pang is the only hassle."
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "sembawang-white-restaurant",
+      "name": "White Restaurant (Sembawang)",
+      "category": "Chinese",
+      "region": "North",
+      "area": "Sembawang",
+      "address": "22 Jalan Tampang, Singapore 758966",
+      "lat": 1.4494,
+      "lng": 103.8194,
+      "price": "$$",
+      "rating": 4.2,
+      "review_count": 4120,
+      "description": "The original Sembawang white bee hoon — silky rice vermicelli in a light seafood broth, best shared.",
+      "specialties": [
+        "white bee hoon",
+        "chilli crab",
+        "seafood",
+        "claypot"
+      ],
+      "photo_queries": [
+        "chilli crab Singapore",
+        "black pepper crab"
+      ],
+      "hours": {
+        "mon": [],
+        "tue": [
+          [
+            "11:00",
+            "21:30"
+          ]
+        ],
+        "wed": [
+          [
+            "11:00",
+            "21:30"
+          ]
+        ],
+        "thu": [
+          [
+            "11:00",
+            "21:30"
+          ]
+        ],
+        "fri": [
+          [
+            "11:00",
+            "21:30"
+          ]
+        ],
+        "sat": [
+          [
+            "11:00",
+            "21:30"
+          ]
+        ],
+        "sun": [
+          [
+            "11:00",
+            "21:30"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Serena K.",
+          "rating": 5,
+          "date": "2026-11-10",
+          "text": "White bee hoon is worth the trip north. Broth is sweet with seafood and not overly heavy."
+        },
+        {
+          "author": "Daniel T.",
+          "rating": 4,
+          "date": "2026-10-21",
+          "text": "Come in a group so you can order the crab too. Gets very busy on weekends."
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "serangoon-garden-chomp-chomp",
+      "name": "Chomp Chomp Food Centre",
+      "category": "Others",
+      "region": "North-East",
+      "area": "Serangoon Garden",
+      "address": "20 Kensington Park Rd, Singapore 557269",
+      "lat": 1.3644,
+      "lng": 103.8664,
+      "price": "$",
+      "rating": 4.1,
+      "review_count": 5230,
+      "description": "Serangoon Garden's open-air hawker centre, famous for satay, hokkien mee and barbecue chicken wings after dark.",
+      "specialties": [
+        "satay",
+        "hokkien mee",
+        "bbq chicken wings",
+        "carrot cake",
+        "otah"
+      ],
+      "photo_queries": [
+        "satay",
+        "char kway teow"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "16:00",
+            "00:30"
+          ]
+        ],
+        "tue": [
+          [
+            "16:00",
+            "00:30"
+          ]
+        ],
+        "wed": [
+          [
+            "16:00",
+            "00:30"
+          ]
+        ],
+        "thu": [
+          [
+            "16:00",
+            "00:30"
+          ]
+        ],
+        "fri": [
+          [
+            "16:00",
+            "00:30"
+          ]
+        ],
+        "sat": [
+          [
+            "16:00",
+            "00:30"
+          ]
+        ],
+        "sun": [
+          [
+            "16:00",
+            "00:30"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Cheryl N.",
+          "rating": 4,
+          "date": "2026-11-13",
+          "text": "Satay and chicken wings are the classics here. Go early — the good stalls sell out."
+        },
+        {
+          "author": "Marcus H.",
+          "rating": 4,
+          "date": "2026-10-19",
+          "text": "Loud, crowded and exactly what you want from a hawker centre at night. Bring tissues."
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "lolas-cafe-kovan",
+      "name": "Lola's Cafe (Kovan)",
+      "category": "Western",
+      "region": "North-East",
+      "area": "Kovan",
+      "address": "5 Simon Rd, Singapore 545893",
+      "lat": 1.3599,
+      "lng": 103.8869,
+      "price": "$$",
+      "rating": 4.4,
+      "review_count": 2760,
+      "description": "A neighbourhood all-day cafe off Kovan: eggs, pancakes and coffee in a bright, easy-going room.",
+      "specialties": [
+        "brunch",
+        "eggs benedict",
+        "pancakes",
+        "coffee",
+        "all-day breakfast"
+      ],
+      "photo_queries": [
+        "brunch cafe food",
+        "pancakes breakfast"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "10:00",
+            "22:00"
+          ]
+        ],
+        "tue": [],
+        "wed": [
+          [
+            "10:00",
+            "22:00"
+          ]
+        ],
+        "thu": [
+          [
+            "10:00",
+            "22:00"
+          ]
+        ],
+        "fri": [
+          [
+            "10:00",
+            "22:00"
+          ]
+        ],
+        "sat": [
+          [
+            "10:00",
+            "22:00"
+          ]
+        ],
+        "sun": [
+          [
+            "10:00",
+            "22:00"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Amelia W.",
+          "rating": 5,
+          "date": "2026-11-12",
+          "text": "Pancakes were fluffy and the coffee is properly good. No rush to leave, which is rare."
+        },
+        {
+          "author": "Ryan C.",
+          "rating": 4,
+          "date": "2026-10-26",
+          "text": "Solid brunch spot if you're in the north-east. Weekend waits are real, so go early."
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "boon-lay-place-market-food-village",
+      "name": "Boon Lay Place Market & Food Village",
+      "category": "Malay",
+      "region": "West",
+      "area": "Boon Lay",
+      "address": "Blk 221B Boon Lay Place, #01-106, Singapore 642221",
+      "lat": 1.3387,
+      "lng": 103.7065,
+      "price": "$",
+      "rating": 4.5,
+      "review_count": 3480,
+      "description": "A Boon Lay hawker centre with a famous nasi lemak stall and a queue before it opens, plus noodles, porridge and fried sides across the other stalls.",
+      "specialties": [
+        "nasi lemak",
+        "fried chicken",
+        "ikan bilis",
+        "otah",
+        "porridge"
+      ],
+      "photo_queries": [
+        "nasi lemak",
+        "porridge"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "06:00",
+            "22:00"
+          ]
+        ],
+        "tue": [
+          [
+            "06:00",
+            "22:00"
+          ]
+        ],
+        "wed": [
+          [
+            "06:00",
+            "22:00"
+          ]
+        ],
+        "thu": [
+          [
+            "06:00",
+            "22:00"
+          ]
+        ],
+        "fri": [
+          [
+            "06:00",
+            "22:00"
+          ]
+        ],
+        "sat": [
+          [
+            "06:00",
+            "22:00"
+          ]
+        ],
+        "sun": [
+          [
+            "06:00",
+            "22:00"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Nurul A.",
+          "rating": 5,
+          "date": "2026-11-17",
+          "text": "The nasi lemak stall still has the best sambal in the west. Rice is warm even mid-morning."
+        },
+        {
+          "author": "Kelvin L.",
+          "rating": 4,
+          "date": "2026-11-02",
+          "text": "Come before 8am for the nasi lemak without a long queue. Plenty of other stalls too."
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "taman-jurong-market",
+      "name": "Taman Jurong Market & Food Centre",
+      "category": "Chinese",
+      "region": "West",
+      "area": "Taman Jurong",
+      "address": "3 Yung Sheng Rd, Singapore 618499",
+      "lat": 1.335,
+      "lng": 103.7205,
+      "price": "$",
+      "rating": 4.0,
+      "review_count": 2140,
+      "description": "A big, unpretentious western-Singapore hawker centre with noodles, laksa and fried fish soup across two floors.",
+      "specialties": [
+        "laksa",
+        "mee rebus",
+        "fried fish soup",
+        "bak chor mee",
+        "wanton mee"
+      ],
+      "photo_queries": [
+        "laksa",
+        "mee rebus"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "06:00",
+            "21:00"
+          ]
+        ],
+        "tue": [
+          [
+            "06:00",
+            "21:00"
+          ]
+        ],
+        "wed": [
+          [
+            "06:00",
+            "21:00"
+          ]
+        ],
+        "thu": [
+          [
+            "06:00",
+            "21:00"
+          ]
+        ],
+        "fri": [
+          [
+            "06:00",
+            "21:00"
+          ]
+        ],
+        "sat": [
+          [
+            "06:00",
+            "21:00"
+          ]
+        ],
+        "sun": [
+          [
+            "06:00",
+            "21:00"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Gerald S.",
+          "rating": 4,
+          "date": "2026-11-08",
+          "text": "Plenty of seats and prices are low. Laksa is a good bowl for the money."
+        },
+        {
+          "author": "Pei Ling C.",
+          "rating": 4,
+          "date": "2026-10-30",
+          "text": "Nothing fancy, just honest hawker food. Go before the lunch crowd."
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "fengshan-85-food-centre",
+      "name": "Bedok 85 Fengshan Food Centre",
+      "category": "Others",
+      "region": "East",
+      "area": "Bedok",
+      "address": "85 Bedok North St 4, Singapore 460085",
+      "lat": 1.3327,
+      "lng": 103.9385,
+      "price": "$",
+      "rating": 4.3,
+      "review_count": 4890,
+      "description": "A Bedok supper institution: bak chor mee, satay and barbecue seafood under one noisy roof.",
+      "specialties": [
+        "bak chor mee",
+        "satay",
+        "bbq seafood",
+        "hokkien mee"
+      ],
+      "photo_queries": [
+        "bak chor mee",
+        "satay"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "16:00",
+            "02:00"
+          ]
+        ],
+        "tue": [
+          [
+            "16:00",
+            "02:00"
+          ]
+        ],
+        "wed": [
+          [
+            "16:00",
+            "02:00"
+          ]
+        ],
+        "thu": [
+          [
+            "16:00",
+            "02:00"
+          ]
+        ],
+        "fri": [
+          [
+            "16:00",
+            "02:00"
+          ]
+        ],
+        "sat": [
+          [
+            "16:00",
+            "02:00"
+          ]
+        ],
+        "sun": [
+          [
+            "16:00",
+            "02:00"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Wei Ming",
+          "rating": 5,
+          "date": "2026-11-14",
+          "text": "Bak chor mee here is the reason to come. Go after 8pm when every stall is running."
+        },
+        {
+          "author": "Farah",
+          "rating": 4,
+          "date": "2026-10-27",
+          "text": "Satay is well marinated and cheap. Seating is tight but turnover is fast."
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "changi-village-hawker-centre",
+      "name": "Changi Village Hawker Centre",
+      "category": "Malay",
+      "region": "East",
+      "area": "Changi Village",
+      "address": "2 Changi Village Rd, Singapore 500002",
+      "lat": 1.3892,
+      "lng": 103.9864,
+      "price": "$",
+      "rating": 4.2,
+      "review_count": 6120,
+      "description": "The place for nasi lemak by the sea, plus wanton mee and satay, a short walk from the ferry terminal.",
+      "specialties": [
+        "nasi lemak",
+        "wanton mee",
+        "satay",
+        "fried chicken"
+      ],
+      "photo_queries": [
+        "nasi lemak",
+        "satay"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "06:00",
+            "23:00"
+          ]
+        ],
+        "tue": [
+          [
+            "06:00",
+            "23:00"
+          ]
+        ],
+        "wed": [
+          [
+            "06:00",
+            "23:00"
+          ]
+        ],
+        "thu": [
+          [
+            "06:00",
+            "23:00"
+          ]
+        ],
+        "fri": [
+          [
+            "06:00",
+            "23:00"
+          ]
+        ],
+        "sat": [
+          [
+            "06:00",
+            "23:00"
+          ]
+        ],
+        "sun": [
+          [
+            "06:00",
+            "23:00"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Nadia",
+          "rating": 5,
+          "date": "2026-11-18",
+          "text": "Came off the boat hungry and the nasi lemak delivered. Rice is properly coconutty."
+        },
+        {
+          "author": "Jun Hao",
+          "rating": 4,
+          "date": "2026-10-30",
+          "text": "Long queue for the famous stall but it moves. Eat outside facing the water."
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "east-coast-lagoon-food-village",
+      "name": "East Coast Lagoon Food Village",
+      "category": "Others",
+      "region": "East",
+      "area": "East Coast Park",
+      "address": "1220 East Coast Parkway, Singapore 468960",
+      "lat": 1.306,
+      "lng": 103.9345,
+      "price": "$",
+      "rating": 4.1,
+      "review_count": 7340,
+      "description": "Seaside hawker centre in East Coast Park, known for satay, otah and barbecue chicken wings at sunset.",
+      "specialties": [
+        "satay",
+        "otah",
+        "bbq chicken wings",
+        "grilled seafood"
+      ],
+      "photo_queries": [
+        "chicken satay",
+        "satay"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "11:00",
+            "23:30"
+          ]
+        ],
+        "tue": [
+          [
+            "11:00",
+            "23:30"
+          ]
+        ],
+        "wed": [
+          [
+            "11:00",
+            "23:30"
+          ]
+        ],
+        "thu": [
+          [
+            "11:00",
+            "23:30"
+          ]
+        ],
+        "fri": [
+          [
+            "11:00",
+            "23:30"
+          ]
+        ],
+        "sat": [
+          [
+            "11:00",
+            "23:30"
+          ]
+        ],
+        "sun": [
+          [
+            "11:00",
+            "23:30"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Divya",
+          "rating": 4,
+          "date": "2026-11-11",
+          "text": "Satay with the sea breeze is hard to beat. Bring cash for most stalls."
+        },
+        {
+          "author": "Terence",
+          "rating": 4,
+          "date": "2026-10-22",
+          "text": "Otah is freshly grilled and smoky. Parking fills up on weekend evenings."
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "tampines-round-market",
+      "name": "Tampines Round Market & Food Centre",
+      "category": "Chinese",
+      "region": "East",
+      "area": "Tampines",
+      "address": "137 Tampines St 11, Singapore 521137",
+      "lat": 1.3538,
+      "lng": 103.9438,
+      "price": "$",
+      "rating": 4.0,
+      "review_count": 3980,
+      "description": "A big heartland hawker centre with solid char kway teow, laksa and fish soup at breakfast time.",
+      "specialties": [
+        "char kway teow",
+        "laksa",
+        "bak chor mee",
+        "fish soup"
+      ],
+      "photo_queries": [
+        "char kway teow",
+        "laksa"
+      ],
+      "hours": {
+        "mon": [],
+        "tue": [
+          [
+            "06:00",
+            "20:30"
+          ]
+        ],
+        "wed": [
+          [
+            "06:00",
+            "20:30"
+          ]
+        ],
+        "thu": [
+          [
+            "06:00",
+            "20:30"
+          ]
+        ],
+        "fri": [
+          [
+            "06:00",
+            "20:30"
+          ]
+        ],
+        "sat": [
+          [
+            "06:00",
+            "20:30"
+          ]
+        ],
+        "sun": [
+          [
+            "06:00",
+            "20:30"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Shuhui",
+          "rating": 4,
+          "date": "2026-11-09",
+          "text": "Char kway teow has good wok hei and the queue is reasonable before 9am."
+        },
+        {
+          "author": "Bala",
+          "rating": 4,
+          "date": "2026-10-25",
+          "text": "Laksa is creamy without being cloying. Plenty of tables at mid-morning."
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "alibabab-eating-house-katong",
+      "name": "Alibabab Eating House (Katong)",
+      "category": "Indian",
+      "region": "East",
+      "area": "Katong",
+      "address": "327 East Coast Rd, Singapore 428968",
+      "lat": 1.3056,
+      "lng": 103.9048,
+      "price": "$",
+      "rating": 4.2,
+      "review_count": 2560,
+      "description": "A Katong prata house that runs late, with crisp roti prata, murtabak and teh tarik.",
+      "specialties": [
+        "roti prata",
+        "murtabak",
+        "thosai",
+        "teh tarik"
+      ],
+      "photo_queries": [
+        "roti prata",
+        "murtabak"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "07:00",
+            "01:00"
+          ]
+        ],
+        "tue": [
+          [
+            "07:00",
+            "01:00"
+          ]
+        ],
+        "wed": [
+          [
+            "07:00",
+            "01:00"
+          ]
+        ],
+        "thu": [
+          [
+            "07:00",
+            "01:00"
+          ]
+        ],
+        "fri": [
+          [
+            "07:00",
+            "01:00"
+          ]
+        ],
+        "sat": [
+          [
+            "07:00",
+            "01:00"
+          ]
+        ],
+        "sun": [
+          [
+            "07:00",
+            "01:00"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Arun",
+          "rating": 5,
+          "date": "2026-11-16",
+          "text": "Prata is crisp at the edges and soft inside. Ask for extra curry."
+        },
+        {
+          "author": "Michelle",
+          "rating": 4,
+          "date": "2026-10-23",
+          "text": "Murtabak is generous and the tea is properly strong. Good late-night stop."
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "kim-choo-peranakan-katong",
+      "name": "Kim Choo Kueh Chang (Katong)",
+      "category": "Others",
+      "region": "East",
+      "area": "Katong / Joo Chiat",
+      "address": "109 East Coast Rd, Singapore 428800",
+      "lat": 1.3053,
+      "lng": 103.9034,
+      "price": "$",
+      "rating": 4.3,
+      "review_count": 3110,
+      "description": "Peranakan rice dumplings, kueh and laksa in a shophouse on East Coast Road.",
+      "specialties": [
+        "peranakan",
+        "laksa",
+        "rice dumpling",
+        "kueh"
+      ],
+      "photo_queries": [
+        "laksa",
+        "mee siam"
+      ],
+      "hours": {
+        "mon": [],
+        "tue": [
+          [
+            "09:00",
+            "20:00"
+          ]
+        ],
+        "wed": [
+          [
+            "09:00",
+            "20:00"
+          ]
+        ],
+        "thu": [
+          [
+            "09:00",
+            "20:00"
+          ]
+        ],
+        "fri": [
+          [
+            "09:00",
+            "20:00"
+          ]
+        ],
+        "sat": [
+          [
+            "09:00",
+            "20:00"
+          ]
+        ],
+        "sun": [
+          [
+            "09:00",
+            "20:00"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Grace",
+          "rating": 5,
+          "date": "2026-11-07",
+          "text": "Bak chang is properly wrapped and the laksa is the real deal. Lovely shophouse."
+        },
+        {
+          "author": "Hock Seng",
+          "rating": 4,
+          "date": "2026-10-20",
+          "text": "Bought kueh to take home and they were gone by evening. Buy double."
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "marine-parade-hawker-centre",
+      "name": "Marine Parade Hawker Centre",
+      "category": "Chinese",
+      "region": "East",
+      "area": "Marine Parade",
+      "address": "81 Marine Parade Central, Singapore 440081",
+      "lat": 1.3026,
+      "lng": 103.9055,
+      "price": "$",
+      "rating": 4.0,
+      "review_count": 2870,
+      "description": "Neighbourhood hawker centre a step from the beach, strong on noodles and porridge in the morning.",
+      "specialties": [
+        "bak chor mee",
+        "wanton mee",
+        "hokkien mee",
+        "porridge"
+      ],
+      "photo_queries": [
+        "bak chor mee",
+        "hainanese chicken rice"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "06:30",
+            "21:00"
+          ]
+        ],
+        "tue": [
+          [
+            "06:30",
+            "21:00"
+          ]
+        ],
+        "wed": [
+          [
+            "06:30",
+            "21:00"
+          ]
+        ],
+        "thu": [
+          [
+            "06:30",
+            "21:00"
+          ]
+        ],
+        "fri": [
+          [
+            "06:30",
+            "21:00"
+          ]
+        ],
+        "sat": [
+          [
+            "06:30",
+            "21:00"
+          ]
+        ],
+        "sun": [
+          [
+            "06:30",
+            "21:00"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Adeline",
+          "rating": 4,
+          "date": "2026-11-05",
+          "text": "Wanton mee is springy and the char siew is decent for the price."
+        },
+        {
+          "author": "Kumar",
+          "rating": 4,
+          "date": "2026-10-19",
+          "text": "Quiet on weekday mornings, which is when I like it."
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "clementi-448-market",
+      "name": "Clementi 448 Market & Food Centre",
+      "category": "Chinese",
+      "region": "West",
+      "area": "Clementi",
+      "address": "448 Clementi Ave 3, Singapore 120448",
+      "lat": 1.3149,
+      "lng": 103.7652,
+      "price": "$",
+      "rating": 4.1,
+      "review_count": 5210,
+      "description": "Clementi's busiest food centre: fish soup, char kway teow and cheap breakfast sets.",
+      "specialties": [
+        "fish soup",
+        "char kway teow",
+        "bak chor mee",
+        "laksa"
+      ],
+      "photo_queries": [
+        "char kway teow",
+        "laksa"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "06:00",
+            "21:00"
+          ]
+        ],
+        "tue": [
+          [
+            "06:00",
+            "21:00"
+          ]
+        ],
+        "wed": [
+          [
+            "06:00",
+            "21:00"
+          ]
+        ],
+        "thu": [
+          [
+            "06:00",
+            "21:00"
+          ]
+        ],
+        "fri": [
+          [
+            "06:00",
+            "21:00"
+          ]
+        ],
+        "sat": [
+          [
+            "06:00",
+            "21:00"
+          ]
+        ],
+        "sun": [
+          [
+            "06:00",
+            "21:00"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Joanne",
+          "rating": 4,
+          "date": "2026-11-15",
+          "text": "Fish soup is clear and sweet. Queue is long but the stall is quick."
+        },
+        {
+          "author": "Ravi",
+          "rating": 4,
+          "date": "2026-10-24",
+          "text": "Char kway teow here is properly smoky. Hard to find a seat at lunch."
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "west-coast-market-square",
+      "name": "West Coast Market Square",
+      "category": "Chinese",
+      "region": "West",
+      "area": "West Coast",
+      "address": "69 West Coast Dr, Singapore 120069",
+      "lat": 1.2933,
+      "lng": 103.7695,
+      "price": "$",
+      "rating": 4.0,
+      "review_count": 2640,
+      "description": "A west-side food centre near the market, with noodles, porridge and roast meats.",
+      "specialties": [
+        "bak chor mee",
+        "hokkien mee",
+        "roast duck rice",
+        "porridge"
+      ],
+      "photo_queries": [
+        "bak chor mee",
+        "hainanese chicken rice"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "06:30",
+            "20:30"
+          ]
+        ],
+        "tue": [
+          [
+            "06:30",
+            "20:30"
+          ]
+        ],
+        "wed": [
+          [
+            "06:30",
+            "20:30"
+          ]
+        ],
+        "thu": [
+          [
+            "06:30",
+            "20:30"
+          ]
+        ],
+        "fri": [
+          [
+            "06:30",
+            "20:30"
+          ]
+        ],
+        "sat": [
+          [
+            "06:30",
+            "20:30"
+          ]
+        ],
+        "sun": [
+          [
+            "06:30",
+            "20:30"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Cheryl",
+          "rating": 4,
+          "date": "2026-11-06",
+          "text": "Roast duck rice is generous and well priced. Seating is easy off-peak."
+        },
+        {
+          "author": "Mohan",
+          "rating": 4,
+          "date": "2026-10-21",
+          "text": "Solid everyday hawker food. The hokkien mee stall is the pick."
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "jurong-west-505-market",
+      "name": "Jurong West 505 Market & Food Centre",
+      "category": "Malay",
+      "region": "West",
+      "area": "Jurong West",
+      "address": "Blk 505 Jurong West St 52, Singapore 640505",
+      "lat": 1.3397,
+      "lng": 103.6998,
+      "price": "$",
+      "rating": 4.1,
+      "review_count": 3020,
+      "description": "A Jurong West market with nasi lemak, mee rebus and BBQ seafood stalls upstairs.",
+      "specialties": [
+        "nasi lemak",
+        "mee rebus",
+        "satay",
+        "otah"
+      ],
+      "photo_queries": [
+        "nasi lemak",
+        "mee rebus"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "06:00",
+            "21:30"
+          ]
+        ],
+        "tue": [
+          [
+            "06:00",
+            "21:30"
+          ]
+        ],
+        "wed": [
+          [
+            "06:00",
+            "21:30"
+          ]
+        ],
+        "thu": [
+          [
+            "06:00",
+            "21:30"
+          ]
+        ],
+        "fri": [
+          [
+            "06:00",
+            "21:30"
+          ]
+        ],
+        "sat": [
+          [
+            "06:00",
+            "21:30"
+          ]
+        ],
+        "sun": [
+          [
+            "06:00",
+            "21:30"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Siti",
+          "rating": 5,
+          "date": "2026-11-12",
+          "text": "Nasi lemak is cheap and generous, and the sambal is properly spicy."
+        },
+        {
+          "author": "Daryl",
+          "rating": 4,
+          "date": "2026-10-26",
+          "text": "Mee rebus is a solid bowl for the money. Gets busy on Sunday mornings."
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "bukit-batok-155-market",
+      "name": "Bukit Batok 155 Market & Food Centre",
+      "category": "Chinese",
+      "region": "West",
+      "area": "Bukit Batok",
+      "address": "Blk 155 Bukit Batok St 11, Singapore 650155",
+      "lat": 1.349,
+      "lng": 103.7495,
+      "price": "$",
+      "rating": 4.0,
+      "review_count": 2210,
+      "description": "A neighbourhood food centre serving laksa, wanton mee and fish soup to the Bukit Batok crowd.",
+      "specialties": [
+        "laksa",
+        "wanton mee",
+        "fish soup",
+        "bak chor mee"
+      ],
+      "photo_queries": [
+        "laksa",
+        "bak chor mee"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "06:00",
+            "20:00"
+          ]
+        ],
+        "tue": [
+          [
+            "06:00",
+            "20:00"
+          ]
+        ],
+        "wed": [
+          [
+            "06:00",
+            "20:00"
+          ]
+        ],
+        "thu": [
+          [
+            "06:00",
+            "20:00"
+          ]
+        ],
+        "fri": [
+          [
+            "06:00",
+            "20:00"
+          ]
+        ],
+        "sat": [
+          [
+            "06:00",
+            "20:00"
+          ]
+        ],
+        "sun": []
+      },
+      "reviews": [
+        {
+          "author": "Hwee Ling",
+          "rating": 4,
+          "date": "2026-11-04",
+          "text": "Laksa is a good size and reasonably priced. Clean and airy for a hawker centre."
+        },
+        {
+          "author": "Sam",
+          "rating": 4,
+          "date": "2026-10-18",
+          "text": "Wanton mee is the standout. Go early — the good stalls close by 2pm."
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "choa-chu-kang-302-food-centre",
+      "name": "Choa Chu Kang 302 Food Centre",
+      "category": "Malay",
+      "region": "West",
+      "area": "Choa Chu Kang",
+      "address": "Blk 302 Choa Chu Kang Ave 4, Singapore 680302",
+      "lat": 1.3853,
+      "lng": 103.7443,
+      "price": "$",
+      "rating": 4.1,
+      "review_count": 2460,
+      "description": "A heartland food centre with nasi padang, roti prata and mee goreng through the day.",
+      "specialties": [
+        "nasi padang",
+        "roti prata",
+        "mee goreng",
+        "nasi lemak"
+      ],
+      "photo_queries": [
+        "nasi padang",
+        "roti prata"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "06:30",
+            "21:00"
+          ]
+        ],
+        "tue": [
+          [
+            "06:30",
+            "21:00"
+          ]
+        ],
+        "wed": [
+          [
+            "06:30",
+            "21:00"
+          ]
+        ],
+        "thu": [
+          [
+            "06:30",
+            "21:00"
+          ]
+        ],
+        "fri": [
+          [
+            "06:30",
+            "21:00"
+          ]
+        ],
+        "sat": [
+          [
+            "06:30",
+            "21:00"
+          ]
+        ],
+        "sun": [
+          [
+            "06:30",
+            "21:00"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Zul",
+          "rating": 5,
+          "date": "2026-11-10",
+          "text": "Nasi padang lauk is fresh and the prices are fair. Beef rendang is excellent."
+        },
+        {
+          "author": "Bryan",
+          "rating": 4,
+          "date": "2026-10-29",
+          "text": "Prata is crisp and the curry is thick. Good breakfast spot in CCK."
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "jurong-point-kopitiam",
+      "name": "Jurong Point (Food Court)",
+      "category": "Others",
+      "region": "West",
+      "area": "Jurong Point",
+      "address": "1 Jurong West Central 2, #03-01, Singapore 648886",
+      "lat": 1.3398,
+      "lng": 103.7062,
+      "price": "$",
+      "rating": 4.0,
+      "review_count": 1890,
+      "description": "Food outlets at Jurong Point, a Singapore mall — the exact stalls vary; listing is indicative rather than a specific confirmed outlet.",
+      "specialties": [
+        "chicken rice",
+        "roti prata",
+        "bak chor mee",
+        "laksa"
+      ],
+      "photo_queries": [
+        "hainanese chicken rice",
+        "roti prata"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "08:00",
+            "22:00"
+          ]
+        ],
+        "tue": [
+          [
+            "08:00",
+            "22:00"
+          ]
+        ],
+        "wed": [
+          [
+            "08:00",
+            "22:00"
+          ]
+        ],
+        "thu": [
+          [
+            "08:00",
+            "22:00"
+          ]
+        ],
+        "fri": [
+          [
+            "08:00",
+            "22:00"
+          ]
+        ],
+        "sat": [
+          [
+            "08:00",
+            "22:00"
+          ]
+        ],
+        "sun": [
+          [
+            "08:00",
+            "22:00"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Mabel",
+          "rating": 4,
+          "date": "2026-11-08",
+          "text": "Convenient when it rains. Chicken rice stall is reliable and quick."
+        },
+        {
+          "author": "Arjun",
+          "rating": 4,
+          "date": "2026-10-17",
+          "text": "Not glamorous but everything is under one roof and air-conditioned."
+        }
+      ],
+      "verified": false
+    },
+    {
+      "id": "pandan-gardens-market",
+      "name": "Pandan Gardens Market & Food Centre",
+      "category": "Chinese",
+      "region": "West",
+      "area": "Pandan Gardens",
+      "address": "Blk 84 Pandan Gardens, Singapore 609645",
+      "lat": 1.3148,
+      "lng": 103.749,
+      "price": "$",
+      "rating": 4.0,
+      "review_count": 1640,
+      "description": "A quiet west-side market food centre, good for breakfast noodles and kaya toast.",
+      "specialties": [
+        "bak chor mee",
+        "kaya toast",
+        "laksa",
+        "wanton mee"
+      ],
+      "photo_queries": [
+        "bak chor mee",
+        "hainanese chicken rice"
+      ],
+      "hours": {
+        "mon": [],
+        "tue": [
+          [
+            "06:00",
+            "20:00"
+          ]
+        ],
+        "wed": [
+          [
+            "06:00",
+            "20:00"
+          ]
+        ],
+        "thu": [
+          [
+            "06:00",
+            "20:00"
+          ]
+        ],
+        "fri": [
+          [
+            "06:00",
+            "20:00"
+          ]
+        ],
+        "sat": [
+          [
+            "06:00",
+            "20:00"
+          ]
+        ],
+        "sun": [
+          [
+            "06:00",
+            "20:00"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Serene",
+          "rating": 4,
+          "date": "2026-11-03",
+          "text": "Cheap and cheerful. Kaya toast set is my weekday breakfast."
+        },
+        {
+          "author": "Patrick",
+          "rating": 4,
+          "date": "2026-10-16",
+          "text": "Very local, very quiet. The laksa stall is worth the walk."
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "teban-gardens-market",
+      "name": "Teban Gardens Market & Food Centre",
+      "category": "Malay",
+      "region": "West",
+      "area": "Teban Gardens",
+      "address": "Blk 37 Teban Gardens Rd, Singapore 600037",
+      "lat": 1.3192,
+      "lng": 103.7428,
+      "price": "$",
+      "rating": 4.0,
+      "review_count": 1420,
+      "description": "A small west-side market food centre with nasi lemak, mee rebus and fried bee hoon.",
+      "specialties": [
+        "nasi lemak",
+        "mee rebus",
+        "fried bee hoon",
+        "otah"
+      ],
+      "photo_queries": [
+        "nasi lemak",
+        "nasi padang"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "06:00",
+            "20:00"
+          ]
+        ],
+        "tue": [
+          [
+            "06:00",
+            "20:00"
+          ]
+        ],
+        "wed": [
+          [
+            "06:00",
+            "20:00"
+          ]
+        ],
+        "thu": [
+          [
+            "06:00",
+            "20:00"
+          ]
+        ],
+        "fri": [
+          [
+            "06:00",
+            "20:00"
+          ]
+        ],
+        "sat": [
+          [
+            "06:00",
+            "20:00"
+          ]
+        ],
+        "sun": [
+          [
+            "06:00",
+            "20:00"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Hairul",
+          "rating": 4,
+          "date": "2026-11-02",
+          "text": "Nasi lemak is good value and the rice is fresh in the morning."
+        },
+        {
+          "author": "Wendy",
+          "rating": 4,
+          "date": "2026-10-15",
+          "text": "Mee rebus is a comforting bowl. Seats are easy to find before 9am."
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "marsiling-mall-hawker-centre",
+      "name": "Marsiling Mall Hawker Centre",
+      "category": "Chinese",
+      "region": "North",
+      "area": "Marsiling",
+      "address": "4 Woodlands St 12, #02-01, Singapore 738623",
+      "lat": 1.4324,
+      "lng": 103.7795,
+      "price": "$",
+      "rating": 4.0,
+      "review_count": 2380,
+      "description": "A tidy air-conditioned hawker centre in Marsiling with noodles, roast meats and dessert.",
+      "specialties": [
+        "char kway teow",
+        "roast duck rice",
+        "bak chor mee",
+        "chendol"
+      ],
+      "photo_queries": [
+        "char kway teow",
+        "bak chor mee"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "07:00",
+            "21:30"
+          ]
+        ],
+        "tue": [
+          [
+            "07:00",
+            "21:30"
+          ]
+        ],
+        "wed": [
+          [
+            "07:00",
+            "21:30"
+          ]
+        ],
+        "thu": [
+          [
+            "07:00",
+            "21:30"
+          ]
+        ],
+        "fri": [
+          [
+            "07:00",
+            "21:30"
+          ]
+        ],
+        "sat": [
+          [
+            "07:00",
+            "21:30"
+          ]
+        ],
+        "sun": [
+          [
+            "07:00",
+            "21:30"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Liyana",
+          "rating": 4,
+          "date": "2026-11-09",
+          "text": "Air-conditioned hawker food is a win in the north. Char kway teow has good wok hei."
+        },
+        {
+          "author": "Wei",
+          "rating": 4,
+          "date": "2026-10-22",
+          "text": "Clean, cheap and never too crowded on weekdays."
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "woodlands-centre-road-food-centre",
+      "name": "Woodlands Centre Road Food Centre",
+      "category": "Malay",
+      "region": "North",
+      "area": "Woodlands",
+      "address": "Blk 4A Woodlands Centre Rd, Singapore 731004",
+      "lat": 1.437,
+      "lng": 103.786,
+      "price": "$",
+      "rating": 4.1,
+      "review_count": 2740,
+      "description": "Woodlands' classic food centre by the checkpoint, known for nasi lemak and mee rebus.",
+      "specialties": [
+        "nasi lemak",
+        "mee rebus",
+        "nasi padang",
+        "otah"
+      ],
+      "photo_queries": [
+        "nasi lemak",
+        "mee rebus"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "06:00",
+            "21:30"
+          ]
+        ],
+        "tue": [
+          [
+            "06:00",
+            "21:30"
+          ]
+        ],
+        "wed": [
+          [
+            "06:00",
+            "21:30"
+          ]
+        ],
+        "thu": [
+          [
+            "06:00",
+            "21:30"
+          ]
+        ],
+        "fri": [
+          [
+            "06:00",
+            "21:30"
+          ]
+        ],
+        "sat": [
+          [
+            "06:00",
+            "21:30"
+          ]
+        ],
+        "sun": [
+          [
+            "06:00",
+            "21:30"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Shafiq",
+          "rating": 5,
+          "date": "2026-11-13",
+          "text": "Nasi lemak is spot on and the queue moves fast before 8am."
+        },
+        {
+          "author": "Irene",
+          "rating": 4,
+          "date": "2026-10-25",
+          "text": "Mee rebus is thick and sweet. Handy if you're heading across the border."
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "yishun-925-chicken-rice",
+      "name": "Yishun 925 Hainanese Chicken Rice",
+      "category": "Chinese",
+      "region": "North",
+      "area": "Yishun",
+      "address": "Blk 925 Yishun Central 1, #01-249, Singapore 760925",
+      "lat": 1.4301,
+      "lng": 103.8351,
+      "price": "$",
+      "rating": 4.3,
+      "review_count": 3410,
+      "description": "A Yishun coffee-shop stalwart serving silky chicken rice with a punchy chilli.",
+      "specialties": [
+        "hainanese chicken rice",
+        "roast chicken",
+        "chicken rice"
+      ],
+      "photo_queries": [
+        "hainanese chicken rice",
+        "hainanese chicken rice"
+      ],
+      "hours": {
+        "mon": [],
+        "tue": [
+          [
+            "10:30",
+            "20:30"
+          ]
+        ],
+        "wed": [
+          [
+            "10:30",
+            "20:30"
+          ]
+        ],
+        "thu": [
+          [
+            "10:30",
+            "20:30"
+          ]
+        ],
+        "fri": [
+          [
+            "10:30",
+            "20:30"
+          ]
+        ],
+        "sat": [
+          [
+            "10:30",
+            "20:30"
+          ]
+        ],
+        "sun": [
+          [
+            "10:30",
+            "20:30"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Jia Hui",
+          "rating": 5,
+          "date": "2026-11-17",
+          "text": "Chicken is silky and the rice is fragrant. Go before noon to avoid the queue."
+        },
+        {
+          "author": "Alex",
+          "rating": 4,
+          "date": "2026-10-26",
+          "text": "Solid plate of chicken rice and the chilli is genuinely hot. Cheap too."
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "chong-pang-market-food-centre",
+      "name": "Chong Pang Market & Food Centre",
+      "category": "Chinese",
+      "region": "North",
+      "area": "Yishun / Chong Pang",
+      "address": "Blk 104/105 Yishun Ring Rd, Singapore 760104",
+      "lat": 1.4378,
+      "lng": 103.828,
+      "price": "$",
+      "rating": 4.1,
+      "review_count": 3960,
+      "description": "The market food centre behind Chong Pang, busy from dawn with noodles, porridge and roast meats.",
+      "specialties": [
+        "bak chor mee",
+        "porridge",
+        "roast duck rice",
+        "hokkien mee"
+      ],
+      "photo_queries": [
+        "bak chor mee",
+        "hainanese chicken rice"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "06:00",
+            "20:00"
+          ]
+        ],
+        "tue": [
+          [
+            "06:00",
+            "20:00"
+          ]
+        ],
+        "wed": [
+          [
+            "06:00",
+            "20:00"
+          ]
+        ],
+        "thu": [
+          [
+            "06:00",
+            "20:00"
+          ]
+        ],
+        "fri": [
+          [
+            "06:00",
+            "20:00"
+          ]
+        ],
+        "sat": [
+          [
+            "06:00",
+            "20:00"
+          ]
+        ],
+        "sun": [
+          [
+            "06:00",
+            "20:00"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Kelvin",
+          "rating": 4,
+          "date": "2026-11-11",
+          "text": "Roast duck rice is the one. Very busy on weekend mornings."
+        },
+        {
+          "author": "Priya",
+          "rating": 4,
+          "date": "2026-10-24",
+          "text": "Good honest hawker breakfast. Prices are the lowest in the area."
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "sembawang-hills-food-centre",
+      "name": "Sembawang Hills Food Centre",
+      "category": "Chinese",
+      "region": "North",
+      "area": "Upper Thomson",
+      "address": "590 Upper Thomson Rd, Singapore 574419",
+      "lat": 1.3872,
+      "lng": 103.827,
+      "price": "$",
+      "rating": 4.1,
+      "review_count": 2890,
+      "description": "A leafy food centre near Upper Thomson with char kway teow, carrot cake and fish soup.",
+      "specialties": [
+        "char kway teow",
+        "carrot cake",
+        "fish soup",
+        "laksa"
+      ],
+      "photo_queries": [
+        "char kway teow",
+        "laksa"
+      ],
+      "hours": {
+        "mon": [],
+        "tue": [
+          [
+            "06:30",
+            "20:30"
+          ]
+        ],
+        "wed": [
+          [
+            "06:30",
+            "20:30"
+          ]
+        ],
+        "thu": [
+          [
+            "06:30",
+            "20:30"
+          ]
+        ],
+        "fri": [
+          [
+            "06:30",
+            "20:30"
+          ]
+        ],
+        "sat": [
+          [
+            "06:30",
+            "20:30"
+          ]
+        ],
+        "sun": [
+          [
+            "06:30",
+            "20:30"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Geraldine",
+          "rating": 4,
+          "date": "2026-11-07",
+          "text": "Carrot cake is crisp and generously portioned. Nice breezy setting."
+        },
+        {
+          "author": "Hafeez",
+          "rating": 4,
+          "date": "2026-10-20",
+          "text": "Solid neighbourhood food centre. Fish soup is the pick of the stalls."
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "hougang-105-hainanese-village",
+      "name": "Hougang 105 Hainanese Village Centre",
+      "category": "Chinese",
+      "region": "North-East",
+      "area": "Hougang",
+      "address": "Blk 105 Hougang Ave 1, Singapore 530105",
+      "lat": 1.367,
+      "lng": 103.889,
+      "price": "$",
+      "rating": 4.2,
+      "review_count": 4620,
+      "description": "A Hougang market and food centre famous for carrot cake, char kway teow and fish soup.",
+      "specialties": [
+        "carrot cake",
+        "char kway teow",
+        "fish soup",
+        "bak chor mee"
+      ],
+      "photo_queries": [
+        "char kway teow",
+        "bak chor mee"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "06:00",
+            "21:00"
+          ]
+        ],
+        "tue": [
+          [
+            "06:00",
+            "21:00"
+          ]
+        ],
+        "wed": [
+          [
+            "06:00",
+            "21:00"
+          ]
+        ],
+        "thu": [
+          [
+            "06:00",
+            "21:00"
+          ]
+        ],
+        "fri": [
+          [
+            "06:00",
+            "21:00"
+          ]
+        ],
+        "sat": [
+          [
+            "06:00",
+            "21:00"
+          ]
+        ],
+        "sun": [
+          [
+            "06:00",
+            "21:00"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Melody",
+          "rating": 5,
+          "date": "2026-11-16",
+          "text": "Carrot cake here is crispy, generous and nearly always sold out by lunch."
+        },
+        {
+          "author": "Aziz",
+          "rating": 4,
+          "date": "2026-10-27",
+          "text": "Char kway teow is smoky and cheap. Go early on weekends."
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "ang-mo-kio-628-market",
+      "name": "Ang Mo Kio 628 Market & Food Centre",
+      "category": "Chinese",
+      "region": "North-East",
+      "area": "Ang Mo Kio",
+      "address": "Blk 628 Ang Mo Kio Ave 4, Singapore 560628",
+      "lat": 1.37,
+      "lng": 103.8447,
+      "price": "$",
+      "rating": 4.1,
+      "review_count": 4380,
+      "description": "A big Ang Mo Kio food centre with satay, hokkien mee and roti prata across its stalls.",
+      "specialties": [
+        "satay",
+        "hokkien mee",
+        "roti prata",
+        "laksa"
+      ],
+      "photo_queries": [
+        "satay",
+        "roti prata"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "06:30",
+            "22:00"
+          ]
+        ],
+        "tue": [
+          [
+            "06:30",
+            "22:00"
+          ]
+        ],
+        "wed": [
+          [
+            "06:30",
+            "22:00"
+          ]
+        ],
+        "thu": [
+          [
+            "06:30",
+            "22:00"
+          ]
+        ],
+        "fri": [
+          [
+            "06:30",
+            "22:00"
+          ]
+        ],
+        "sat": [
+          [
+            "06:30",
+            "22:00"
+          ]
+        ],
+        "sun": [
+          [
+            "06:30",
+            "22:00"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Wenjie",
+          "rating": 4,
+          "date": "2026-11-12",
+          "text": "Satay and hokkien mee both solid and cheap. Always a seat somewhere."
+        },
+        {
+          "author": "Lavanya",
+          "rating": 4,
+          "date": "2026-10-26",
+          "text": "Roti prata stall does a proper crispy prata. Good breakfast stop."
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "serangoon-garden-market",
+      "name": "Serangoon Garden Market & Food Centre",
+      "category": "Chinese",
+      "region": "North-East",
+      "area": "Serangoon Garden",
+      "address": "49A Serangoon Garden Way, Singapore 555945",
+      "lat": 1.3648,
+      "lng": 103.8652,
+      "price": "$",
+      "rating": 4.2,
+      "review_count": 3720,
+      "description": "The daytime half of the Serangoon Garden food scene, strong on noodles and roast meats.",
+      "specialties": [
+        "char kway teow",
+        "roast duck rice",
+        "bak chor mee",
+        "wanton mee"
+      ],
+      "photo_queries": [
+        "char kway teow",
+        "bak chor mee"
+      ],
+      "hours": {
+        "mon": [],
+        "tue": [
+          [
+            "06:30",
+            "20:00"
+          ]
+        ],
+        "wed": [
+          [
+            "06:30",
+            "20:00"
+          ]
+        ],
+        "thu": [
+          [
+            "06:30",
+            "20:00"
+          ]
+        ],
+        "fri": [
+          [
+            "06:30",
+            "20:00"
+          ]
+        ],
+        "sat": [
+          [
+            "06:30",
+            "20:00"
+          ]
+        ],
+        "sun": [
+          [
+            "06:30",
+            "20:00"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Shaun",
+          "rating": 4,
+          "date": "2026-11-08",
+          "text": "Roast duck rice is excellent for the price. Busy at breakfast."
+        },
+        {
+          "author": "Yvonne",
+          "rating": 4,
+          "date": "2026-10-21",
+          "text": "Char kway teow is the standard-bearer here. Come before 11am."
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "kovan-209-market",
+      "name": "Kovan 209 Market & Food Centre",
+      "category": "Others",
+      "region": "North-East",
+      "area": "Kovan",
+      "address": "Blk 209 Hougang St 21, Singapore 530209",
+      "lat": 1.3595,
+      "lng": 103.8883,
+      "price": "$",
+      "rating": 4.1,
+      "review_count": 3140,
+      "description": "Kovan's market food centre with satay, mee siam and a well-loved fried kway teow stall.",
+      "specialties": [
+        "satay",
+        "mee siam",
+        "char kway teow",
+        "otah"
+      ],
+      "photo_queries": [
+        "satay",
+        "mee siam"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "06:30",
+            "21:00"
+          ]
+        ],
+        "tue": [
+          [
+            "06:30",
+            "21:00"
+          ]
+        ],
+        "wed": [
+          [
+            "06:30",
+            "21:00"
+          ]
+        ],
+        "thu": [
+          [
+            "06:30",
+            "21:00"
+          ]
+        ],
+        "fri": [
+          [
+            "06:30",
+            "21:00"
+          ]
+        ],
+        "sat": [
+          [
+            "06:30",
+            "21:00"
+          ]
+        ],
+        "sun": [
+          [
+            "06:30",
+            "21:00"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Benedict",
+          "rating": 4,
+          "date": "2026-11-09",
+          "text": "Satay is properly charred and the peanut sauce is thick."
+        },
+        {
+          "author": "Hana",
+          "rating": 4,
+          "date": "2026-10-24",
+          "text": "Mee siam is tangy and generous. Good variety for a small centre."
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "punggol-settlement-food-court",
+      "name": "Punggol Settlement Food Court",
+      "category": "Others",
+      "region": "North-East",
+      "area": "Punggol",
+      "address": "3 Punggol Point Rd, Singapore 828694",
+      "lat": 1.4108,
+      "lng": 103.9108,
+      "price": "$",
+      "rating": 3.9,
+      "review_count": 1560,
+      "description": "Food court at the end of Punggol Point, popular for a seafood dinner before a waterfront walk.",
+      "specialties": [
+        "seafood",
+        "satay",
+        "chicken rice",
+        "bbq seafood"
+      ],
+      "photo_queries": [
+        "chilli crab Singapore",
+        "chicken satay"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "11:30",
+            "22:00"
+          ]
+        ],
+        "tue": [
+          [
+            "11:30",
+            "22:00"
+          ]
+        ],
+        "wed": [
+          [
+            "11:30",
+            "22:00"
+          ]
+        ],
+        "thu": [
+          [
+            "11:30",
+            "22:00"
+          ]
+        ],
+        "fri": [
+          [
+            "11:30",
+            "22:00"
+          ]
+        ],
+        "sat": [
+          [
+            "11:30",
+            "22:00"
+          ]
+        ],
+        "sun": [
+          [
+            "11:30",
+            "22:00"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Zhi Wei",
+          "rating": 4,
+          "date": "2026-11-05",
+          "text": "Handy stop after cycling. Seafood is fine and the view at dusk is the draw."
+        },
+        {
+          "author": "Alethea",
+          "rating": 4,
+          "date": "2026-10-19",
+          "text": "Busy at weekends. Satay is decent and cheap."
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "upper-thomson-casuarina",
+      "name": "Casuarina Curry (Upper Thomson)",
+      "category": "Indian",
+      "region": "North-East",
+      "area": "Upper Thomson",
+      "address": "136 Casuarina Rd, Singapore 579759",
+      "lat": 1.3906,
+      "lng": 103.8319,
+      "price": "$",
+      "rating": 4.3,
+      "review_count": 5230,
+      "description": "A prata institution on Casuarina Road: crisp roti prata, thosai and murtabak, open late.",
+      "specialties": [
+        "roti prata",
+        "thosai",
+        "murtabak",
+        "biryani"
+      ],
+      "photo_queries": [
+        "roti prata",
+        "thosai"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "07:00",
+            "00:00"
+          ]
+        ],
+        "tue": [
+          [
+            "07:00",
+            "00:00"
+          ]
+        ],
+        "wed": [
+          [
+            "07:00",
+            "00:00"
+          ]
+        ],
+        "thu": [
+          [
+            "07:00",
+            "00:00"
+          ]
+        ],
+        "fri": [
+          [
+            "07:00",
+            "00:00"
+          ]
+        ],
+        "sat": [
+          [
+            "07:00",
+            "00:00"
+          ]
+        ],
+        "sun": [
+          [
+            "07:00",
+            "00:00"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Ashwin",
+          "rating": 5,
+          "date": "2026-11-14",
+          "text": "The reference point for prata in Singapore. Coin prata is worth the extra."
+        },
+        {
+          "author": "Tracy",
+          "rating": 4,
+          "date": "2026-10-25",
+          "text": "Thosai is crisp and the sambar is good. Crowded on weekend mornings."
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "katong-shopping-centre-food-centre",
+      "name": "Katong Shopping Centre Food Centre",
+      "category": "Others",
+      "region": "East",
+      "area": "Katong",
+      "address": "865 Mountbatten Rd, B1-01, Singapore 437844",
+      "lat": 1.3044,
+      "lng": 103.9029,
+      "price": "$",
+      "rating": 4.0,
+      "review_count": 2240,
+      "description": "A basement food centre under Katong Shopping Centre, handy for a quick laksa or chicken rice.",
+      "specialties": [
+        "laksa",
+        "chicken rice",
+        "nasi lemak",
+        "mee siam"
+      ],
+      "photo_queries": [
+        "laksa",
+        "hainanese chicken rice"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "08:00",
+            "21:00"
+          ]
+        ],
+        "tue": [
+          [
+            "08:00",
+            "21:00"
+          ]
+        ],
+        "wed": [
+          [
+            "08:00",
+            "21:00"
+          ]
+        ],
+        "thu": [
+          [
+            "08:00",
+            "21:00"
+          ]
+        ],
+        "fri": [
+          [
+            "08:00",
+            "21:00"
+          ]
+        ],
+        "sat": [
+          [
+            "08:00",
+            "21:00"
+          ]
+        ],
+        "sun": [
+          [
+            "08:00",
+            "21:00"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Wei Ling",
+          "rating": 4,
+          "date": "2026-11-12",
+          "text": "Convenient basement stop in Katong. Laksa is decent and cheap."
+        },
+        {
+          "author": "Farhan",
+          "rating": 4,
+          "date": "2026-10-24",
+          "text": "Chicken rice stall is reliable. Gets busy at lunch."
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "bedok-216-market",
+      "name": "Bedok 216 Market & Food Centre",
+      "category": "Chinese",
+      "region": "East",
+      "area": "Bedok",
+      "address": "Blk 216 Bedok North St 1, Singapore 460216",
+      "lat": 1.329,
+      "lng": 103.9284,
+      "price": "$",
+      "rating": 4.2,
+      "review_count": 4180,
+      "description": "A big Bedok market food centre, strong on porridge, noodles and roast meats.",
+      "specialties": [
+        "porridge",
+        "bak chor mee",
+        "roast duck rice",
+        "wanton mee"
+      ],
+      "photo_queries": [
+        "porridge",
+        "wanton-mee"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "06:00",
+            "21:00"
+          ]
+        ],
+        "tue": [
+          [
+            "06:00",
+            "21:00"
+          ]
+        ],
+        "wed": [
+          [
+            "06:00",
+            "21:00"
+          ]
+        ],
+        "thu": [
+          [
+            "06:00",
+            "21:00"
+          ]
+        ],
+        "fri": [
+          [
+            "06:00",
+            "21:00"
+          ]
+        ],
+        "sat": [
+          [
+            "06:00",
+            "21:00"
+          ]
+        ],
+        "sun": [
+          [
+            "06:00",
+            "21:00"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Hock Liang",
+          "rating": 5,
+          "date": "2026-11-15",
+          "text": "Porridge is silky and the queue moves quickly. Cheap breakfast."
+        },
+        {
+          "author": "Neo",
+          "rating": 4,
+          "date": "2026-10-27",
+          "text": "Wanton mee and roast duck both good. Loads of seating."
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "tampines-mall-food-court",
+      "name": "Tampines Mall (Food Court)",
+      "category": "Others",
+      "region": "East",
+      "area": "Tampines Mall",
+      "address": "4 Tampines Central 5, #04-01, Singapore 529510",
+      "lat": 1.3528,
+      "lng": 103.9449,
+      "price": "$",
+      "rating": 3.9,
+      "review_count": 1780,
+      "description": "Food outlets at Tampines Mall, a Singapore mall — the exact stalls vary; listing is indicative rather than a specific confirmed outlet.",
+      "specialties": [
+        "mixed rice",
+        "noodles",
+        "chicken rice",
+        "western"
+      ],
+      "photo_queries": [
+        "western-food",
+        "hainanese chicken rice"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "10:00",
+            "21:30"
+          ]
+        ],
+        "tue": [
+          [
+            "10:00",
+            "21:30"
+          ]
+        ],
+        "wed": [
+          [
+            "10:00",
+            "21:30"
+          ]
+        ],
+        "thu": [
+          [
+            "10:00",
+            "21:30"
+          ]
+        ],
+        "fri": [
+          [
+            "10:00",
+            "21:30"
+          ]
+        ],
+        "sat": [
+          [
+            "10:00",
+            "21:30"
+          ]
+        ],
+        "sun": [
+          [
+            "10:00",
+            "21:30"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Celine",
+          "rating": 4,
+          "date": "2026-11-06",
+          "text": "Convenient mall option. Air-conditioned and quick."
+        },
+        {
+          "author": "Marcus",
+          "rating": 3,
+          "date": "2026-10-19",
+          "text": "Standard food court fare. Fine for a quick lunch."
+        }
+      ],
+      "verified": false
+    },
+    {
+      "id": "bukit-timah-plaza-food-court",
+      "name": "Bukit Timah Plaza (Food Court)",
+      "category": "Others",
+      "region": "West",
+      "area": "Bukit Timah Plaza",
+      "address": "1 Jalan Anak Bukit, #02-01, Singapore 589659",
+      "lat": 1.3401,
+      "lng": 103.7791,
+      "price": "$",
+      "rating": 3.9,
+      "review_count": 1640,
+      "description": "Food outlets at Bukit Timah Plaza, a Singapore mall — the exact stalls vary; listing is indicative rather than a specific confirmed outlet.",
+      "specialties": [
+        "mixed rice",
+        "noodles",
+        "western",
+        "chicken rice"
+      ],
+      "photo_queries": [
+        "hainanese chicken rice",
+        "western-food"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "09:00",
+            "21:30"
+          ]
+        ],
+        "tue": [
+          [
+            "09:00",
+            "21:30"
+          ]
+        ],
+        "wed": [
+          [
+            "09:00",
+            "21:30"
+          ]
+        ],
+        "thu": [
+          [
+            "09:00",
+            "21:30"
+          ]
+        ],
+        "fri": [
+          [
+            "09:00",
+            "21:30"
+          ]
+        ],
+        "sat": [
+          [
+            "09:00",
+            "21:30"
+          ]
+        ],
+        "sun": [
+          [
+            "09:00",
+            "21:30"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Andrea",
+          "rating": 4,
+          "date": "2026-11-07",
+          "text": "Handy after grocery shopping. Mixed rice is the best value here."
+        },
+        {
+          "author": "Isaac",
+          "rating": 4,
+          "date": "2026-10-20",
+          "text": "Nothing exciting but convenient and clean."
+        }
+      ],
+      "verified": false
+    },
+    {
+      "id": "clementi-mall-kopitiam",
+      "name": "Clementi Mall (Food Court)",
+      "category": "Others",
+      "region": "West",
+      "area": "Clementi Mall",
+      "address": "3155 Commonwealth Ave W, #04-01, Singapore 129588",
+      "lat": 1.315,
+      "lng": 103.7649,
+      "price": "$",
+      "rating": 3.9,
+      "review_count": 1820,
+      "description": "Food outlets at Clementi Mall, a Singapore mall — the exact stalls vary; listing is indicative rather than a specific confirmed outlet.",
+      "specialties": [
+        "roti prata",
+        "economy rice",
+        "noodles",
+        "kaya toast"
+      ],
+      "photo_queries": [
+        "roti-prata",
+        "economy-rice"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "07:30",
+            "22:00"
+          ]
+        ],
+        "tue": [
+          [
+            "07:30",
+            "22:00"
+          ]
+        ],
+        "wed": [
+          [
+            "07:30",
+            "22:00"
+          ]
+        ],
+        "thu": [
+          [
+            "07:30",
+            "22:00"
+          ]
+        ],
+        "fri": [
+          [
+            "07:30",
+            "22:00"
+          ]
+        ],
+        "sat": [
+          [
+            "07:30",
+            "22:00"
+          ]
+        ],
+        "sun": [
+          [
+            "07:30",
+            "22:00"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Yuting",
+          "rating": 4,
+          "date": "2026-11-05",
+          "text": "Prata stall opens early which is handy before work."
+        },
+        {
+          "author": "Ramesh",
+          "rating": 4,
+          "date": "2026-10-18",
+          "text": "Good value and lots of seating. Gets crowded at lunch."
+        }
+      ],
+      "verified": false
+    },
+    {
+      "id": "bukit-batok-west-mall-food-court",
+      "name": "West Mall (Food Court)",
+      "category": "Others",
+      "region": "West",
+      "area": "West Mall",
+      "address": "1 Bukit Batok Central Link, #04-01, Singapore 658713",
+      "lat": 1.3496,
+      "lng": 103.75,
+      "price": "$",
+      "rating": 3.9,
+      "review_count": 1320,
+      "description": "Food outlets at West Mall, a Singapore mall — the exact stalls vary; listing is indicative rather than a specific confirmed outlet.",
+      "specialties": [
+        "mixed rice",
+        "noodles",
+        "dessert",
+        "roti prata"
+      ],
+      "photo_queries": [
+        "economy-rice",
+        "dessert"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "09:00",
+            "21:30"
+          ]
+        ],
+        "tue": [
+          [
+            "09:00",
+            "21:30"
+          ]
+        ],
+        "wed": [
+          [
+            "09:00",
+            "21:30"
+          ]
+        ],
+        "thu": [
+          [
+            "09:00",
+            "21:30"
+          ]
+        ],
+        "fri": [
+          [
+            "09:00",
+            "21:30"
+          ]
+        ],
+        "sat": [
+          [
+            "09:00",
+            "21:30"
+          ]
+        ],
+        "sun": [
+          [
+            "09:00",
+            "21:30"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Hui Ling",
+          "rating": 4,
+          "date": "2026-11-03",
+          "text": "Dessert stall is the highlight. Cheap and cheerful."
+        },
+        {
+          "author": "Aravind",
+          "rating": 4,
+          "date": "2026-10-16",
+          "text": "Reliable food court for the area. Parking is easy."
+        }
+      ],
+      "verified": false
+    },
+    {
+      "id": "choa-chu-kang-lot-one-food-hall",
+      "name": "Lot One (Food Court)",
+      "category": "Others",
+      "region": "West",
+      "area": "Lot One Shoppers' Mall",
+      "address": "21 Choa Chu Kang Ave 4, #03-01, Singapore 689812",
+      "lat": 1.3851,
+      "lng": 103.744,
+      "price": "$",
+      "rating": 3.9,
+      "review_count": 1460,
+      "description": "Food outlets at Lot One Shoppers' Mall, a Singapore mall — the exact stalls vary; listing is indicative rather than a specific confirmed outlet.",
+      "specialties": [
+        "nasi padang",
+        "noodles",
+        "bread",
+        "coffee"
+      ],
+      "photo_queries": [
+        "nasi-padang",
+        "coffee-shop"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "09:00",
+            "21:30"
+          ]
+        ],
+        "tue": [
+          [
+            "09:00",
+            "21:30"
+          ]
+        ],
+        "wed": [
+          [
+            "09:00",
+            "21:30"
+          ]
+        ],
+        "thu": [
+          [
+            "09:00",
+            "21:30"
+          ]
+        ],
+        "fri": [
+          [
+            "09:00",
+            "21:30"
+          ]
+        ],
+        "sat": [
+          [
+            "09:00",
+            "21:30"
+          ]
+        ],
+        "sun": [
+          [
+            "09:00",
+            "21:30"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Shalini",
+          "rating": 4,
+          "date": "2026-11-02",
+          "text": "Nasi padang stall has good variety. Handy near the MRT."
+        },
+        {
+          "author": "Terence",
+          "rating": 4,
+          "date": "2026-10-15",
+          "text": "Bakery at the entrance is worth a stop."
+        }
+      ],
+      "verified": false
+    },
+    {
+      "id": "causeway-point-food-court",
+      "name": "Causeway Point (Food Court)",
+      "category": "Others",
+      "region": "North",
+      "area": "Causeway Point",
+      "address": "1 Woodlands Square, #05-01, Singapore 738099",
+      "lat": 1.436,
+      "lng": 103.786,
+      "price": "$",
+      "rating": 3.9,
+      "review_count": 1980,
+      "description": "Food outlets at Causeway Point, a Singapore mall — the exact stalls vary; listing is indicative rather than a specific confirmed outlet.",
+      "specialties": [
+        "mixed rice",
+        "noodles",
+        "western",
+        "chicken rice"
+      ],
+      "photo_queries": [
+        "economy-rice",
+        "western-food"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "10:00",
+            "21:30"
+          ]
+        ],
+        "tue": [
+          [
+            "10:00",
+            "21:30"
+          ]
+        ],
+        "wed": [
+          [
+            "10:00",
+            "21:30"
+          ]
+        ],
+        "thu": [
+          [
+            "10:00",
+            "21:30"
+          ]
+        ],
+        "fri": [
+          [
+            "10:00",
+            "21:30"
+          ]
+        ],
+        "sat": [
+          [
+            "10:00",
+            "21:30"
+          ]
+        ],
+        "sun": [
+          [
+            "10:00",
+            "21:30"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Wan Ting",
+          "rating": 4,
+          "date": "2026-11-11",
+          "text": "Big and clean with plenty of seats. Good variety."
+        },
+        {
+          "author": "Iskandar",
+          "rating": 4,
+          "date": "2026-10-24",
+          "text": "Convenient if you're catching the train. Prices fair."
+        }
+      ],
+      "verified": false
+    },
+    {
+      "id": "yishun-northpoint-food-court",
+      "name": "Northpoint City (Food Court)",
+      "category": "Others",
+      "region": "North",
+      "area": "Northpoint City",
+      "address": "930 Yishun Ave 2, #04-01, Singapore 769098",
+      "lat": 1.4297,
+      "lng": 103.835,
+      "price": "$",
+      "rating": 3.9,
+      "review_count": 1740,
+      "description": "Food outlets at Northpoint City, a Singapore mall — the exact stalls vary; listing is indicative rather than a specific confirmed outlet.",
+      "specialties": [
+        "mixed rice",
+        "noodles",
+        "dessert",
+        "chicken rice"
+      ],
+      "photo_queries": [
+        "economy-rice",
+        "dessert"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "09:30",
+            "21:30"
+          ]
+        ],
+        "tue": [
+          [
+            "09:30",
+            "21:30"
+          ]
+        ],
+        "wed": [
+          [
+            "09:30",
+            "21:30"
+          ]
+        ],
+        "thu": [
+          [
+            "09:30",
+            "21:30"
+          ]
+        ],
+        "fri": [
+          [
+            "09:30",
+            "21:30"
+          ]
+        ],
+        "sat": [
+          [
+            "09:30",
+            "21:30"
+          ]
+        ],
+        "sun": [
+          [
+            "09:30",
+            "21:30"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Joyce",
+          "rating": 4,
+          "date": "2026-11-06",
+          "text": "Lots of choices and seating. Dessert is a good finish."
+        },
+        {
+          "author": "Harun",
+          "rating": 4,
+          "date": "2026-10-19",
+          "text": "Fine food court. Busy at weekends but turnover is quick."
+        }
+      ],
+      "verified": false
+    },
+    {
+      "id": "sembawang-sun-plaza-food-court",
+      "name": "Sun Plaza (Food Court)",
+      "category": "Others",
+      "region": "North",
+      "area": "Sun Plaza",
+      "address": "30 Sembawang Dr, #03-01, Singapore 757713",
+      "lat": 1.449,
+      "lng": 103.82,
+      "price": "$",
+      "rating": 3.9,
+      "review_count": 1080,
+      "description": "Food outlets at Sun Plaza, a Singapore mall — the exact stalls vary; listing is indicative rather than a specific confirmed outlet.",
+      "specialties": [
+        "roti prata",
+        "economy rice",
+        "noodles",
+        "chicken rice"
+      ],
+      "photo_queries": [
+        "roti-prata",
+        "economy-rice"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "09:00",
+            "21:00"
+          ]
+        ],
+        "tue": [
+          [
+            "09:00",
+            "21:00"
+          ]
+        ],
+        "wed": [
+          [
+            "09:00",
+            "21:00"
+          ]
+        ],
+        "thu": [
+          [
+            "09:00",
+            "21:00"
+          ]
+        ],
+        "fri": [
+          [
+            "09:00",
+            "21:00"
+          ]
+        ],
+        "sat": [
+          [
+            "09:00",
+            "21:00"
+          ]
+        ],
+        "sun": [
+          [
+            "09:00",
+            "21:00"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Rahul",
+          "rating": 4,
+          "date": "2026-11-04",
+          "text": "Prata is freshly made and cheap. Good for breakfast."
+        },
+        {
+          "author": "Serene",
+          "rating": 3,
+          "date": "2026-10-17",
+          "text": "Standard mall food court. Nothing to complain about."
+        }
+      ],
+      "verified": false
+    },
+    {
+      "id": "hougang-mall-food-court",
+      "name": "Hougang Mall (Food Court)",
+      "category": "Others",
+      "region": "North-East",
+      "area": "Hougang Mall",
+      "address": "90 Hougang Ave 10, #04-01, Singapore 538766",
+      "lat": 1.371,
+      "lng": 103.893,
+      "price": "$",
+      "rating": 3.9,
+      "review_count": 1520,
+      "description": "Food outlets at Hougang Mall, a Singapore mall — the exact stalls vary; listing is indicative rather than a specific confirmed outlet.",
+      "specialties": [
+        "mixed rice",
+        "noodles",
+        "western",
+        "dessert"
+      ],
+      "photo_queries": [
+        "economy-rice",
+        "western-food"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "09:30",
+            "21:30"
+          ]
+        ],
+        "tue": [
+          [
+            "09:30",
+            "21:30"
+          ]
+        ],
+        "wed": [
+          [
+            "09:30",
+            "21:30"
+          ]
+        ],
+        "thu": [
+          [
+            "09:30",
+            "21:30"
+          ]
+        ],
+        "fri": [
+          [
+            "09:30",
+            "21:30"
+          ]
+        ],
+        "sat": [
+          [
+            "09:30",
+            "21:30"
+          ]
+        ],
+        "sun": [
+          [
+            "09:30",
+            "21:30"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Gladys",
+          "rating": 4,
+          "date": "2026-11-08",
+          "text": "Convenient and air-conditioned. Good for a quick dinner."
+        },
+        {
+          "author": "Kai",
+          "rating": 4,
+          "date": "2026-10-21",
+          "text": "Plenty of seating on weekdays."
+        }
+      ],
+      "verified": false
+    },
+    {
+      "id": "ang-mo-kio-hub-food-court",
+      "name": "AMK Hub (Food Court)",
+      "category": "Others",
+      "region": "North-East",
+      "area": "AMK Hub",
+      "address": "53 Ang Mo Kio Ave 3, #04-01, Singapore 569933",
+      "lat": 1.3695,
+      "lng": 103.8485,
+      "price": "$",
+      "rating": 3.9,
+      "review_count": 1680,
+      "description": "Food outlets at AMK Hub, a Singapore mall — the exact stalls vary; listing is indicative rather than a specific confirmed outlet.",
+      "specialties": [
+        "mixed rice",
+        "noodles",
+        "western",
+        "dessert"
+      ],
+      "photo_queries": [
+        "noodles",
+        "western-food"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "09:30",
+            "21:30"
+          ]
+        ],
+        "tue": [
+          [
+            "09:30",
+            "21:30"
+          ]
+        ],
+        "wed": [
+          [
+            "09:30",
+            "21:30"
+          ]
+        ],
+        "thu": [
+          [
+            "09:30",
+            "21:30"
+          ]
+        ],
+        "fri": [
+          [
+            "09:30",
+            "21:30"
+          ]
+        ],
+        "sat": [
+          [
+            "09:30",
+            "21:30"
+          ]
+        ],
+        "sun": [
+          [
+            "09:30",
+            "21:30"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Jerald",
+          "rating": 4,
+          "date": "2026-11-04",
+          "text": "Big food court, always a seat somewhere. Convenient."
+        },
+        {
+          "author": "Aminah",
+          "rating": 4,
+          "date": "2026-10-17",
+          "text": "Good variety and central location."
+        }
+      ],
+      "verified": false
+    },
+    {
+      "id": "punggol-waterway-cafe",
+      "name": "Punggol Waterway Point (Food Court)",
+      "category": "Western",
+      "region": "North-East",
+      "area": "Waterway Point",
+      "address": "83 Punggol Central, #01-01, Singapore 828761",
+      "lat": 1.405,
+      "lng": 103.902,
+      "price": "$$",
+      "rating": 4.0,
+      "review_count": 1020,
+      "description": "Food outlets at Waterway Point, a Singapore mall — the exact stalls vary; listing is indicative rather than a specific confirmed outlet.",
+      "specialties": [
+        "brunch",
+        "pasta",
+        "coffee",
+        "salad"
+      ],
+      "photo_queries": [
+        "brunch-cafe-food",
+        "salad-bowl"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "10:00",
+            "21:00"
+          ]
+        ],
+        "tue": [
+          [
+            "10:00",
+            "21:00"
+          ]
+        ],
+        "wed": [
+          [
+            "10:00",
+            "21:00"
+          ]
+        ],
+        "thu": [
+          [
+            "10:00",
+            "21:00"
+          ]
+        ],
+        "fri": [
+          [
+            "10:00",
+            "21:00"
+          ]
+        ],
+        "sat": [
+          [
+            "10:00",
+            "21:00"
+          ]
+        ],
+        "sun": [
+          [
+            "10:00",
+            "21:00"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Clarissa",
+          "rating": 4,
+          "date": "2026-11-09",
+          "text": "Nice view over the waterway and the pasta is decent."
+        },
+        {
+          "author": "Nathan",
+          "rating": 4,
+          "date": "2026-10-22",
+          "text": "Relaxed spot for a weekend brunch."
+        }
+      ],
+      "verified": false
+    },
+    {
+      "id": "chinatown-complex-food-centre",
+      "name": "Chinatown Complex Food Centre",
+      "category": "Chinese",
+      "region": "Central",
+      "area": "Chinatown",
+      "address": "335 Smith St, Singapore 050335",
+      "lat": 1.2817,
+      "lng": 103.8437,
+      "price": "$",
+      "rating": 4.3,
+      "review_count": 8920,
+      "description": "One of Singapore's largest hawker centres, with claypot rice, wonton mee and soy desserts.",
+      "specialties": [
+        "claypot rice",
+        "wanton mee",
+        "bak chor mee",
+        "porridge"
+      ],
+      "photo_queries": [
+        "claypot-rice",
+        "wanton-mee"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "07:00",
+            "22:00"
+          ]
+        ],
+        "tue": [
+          [
+            "07:00",
+            "22:00"
+          ]
+        ],
+        "wed": [
+          [
+            "07:00",
+            "22:00"
+          ]
+        ],
+        "thu": [
+          [
+            "07:00",
+            "22:00"
+          ]
+        ],
+        "fri": [
+          [
+            "07:00",
+            "22:00"
+          ]
+        ],
+        "sat": [
+          [
+            "07:00",
+            "22:00"
+          ]
+        ],
+        "sun": [
+          [
+            "07:00",
+            "22:00"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Junsheng",
+          "rating": 5,
+          "date": "2026-11-17",
+          "text": "Claypot rice stall is worth the twenty minute wait. Huge variety here."
+        },
+        {
+          "author": "Angela",
+          "rating": 4,
+          "date": "2026-10-28",
+          "text": "So many stalls it's hard to choose. Come back more than once."
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "maxwell-food-centre-cafe",
+      "name": "Maxwell Food Centre",
+      "category": "Chinese",
+      "region": "Central",
+      "area": "Maxwell / Chinatown",
+      "address": "1 Kadayanallur St, Singapore 069184",
+      "lat": 1.2803,
+      "lng": 103.8449,
+      "price": "$",
+      "rating": 4.3,
+      "review_count": 7640,
+      "description": "A famous Chinatown hawker centre with fish porridge, char kway teow and popiah.",
+      "specialties": [
+        "porridge",
+        "char kway teow",
+        "popiah",
+        "hainanese chicken rice"
+      ],
+      "photo_queries": [
+        "porridge",
+        "popiah"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "08:00",
+            "22:00"
+          ]
+        ],
+        "tue": [
+          [
+            "08:00",
+            "22:00"
+          ]
+        ],
+        "wed": [
+          [
+            "08:00",
+            "22:00"
+          ]
+        ],
+        "thu": [
+          [
+            "08:00",
+            "22:00"
+          ]
+        ],
+        "fri": [
+          [
+            "08:00",
+            "22:00"
+          ]
+        ],
+        "sat": [
+          [
+            "08:00",
+            "22:00"
+          ]
+        ],
+        "sun": [
+          [
+            "08:00",
+            "22:00"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Ming Hui",
+          "rating": 5,
+          "date": "2026-11-16",
+          "text": "Fish porridge at breakfast is the move. Very busy at lunch."
+        },
+        {
+          "author": "Tanya",
+          "rating": 4,
+          "date": "2026-10-26",
+          "text": "Popiah is freshly wrapped. Bring tissue for seats."
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "boat-quay-riverside-seafood",
+      "name": "Boat Quay Seafood Restaurants",
+      "category": "Others",
+      "region": "Central",
+      "area": "Boat Quay",
+      "address": "59 Boat Quay, Singapore 049848",
+      "lat": 1.2874,
+      "lng": 103.8498,
+      "price": "$$$",
+      "rating": 4.0,
+      "review_count": 2210,
+      "description": "Food outlets at Boat Quay, a Singapore mall — the exact stalls vary; listing is indicative rather than a specific confirmed outlet.",
+      "specialties": [
+        "chilli crab",
+        "seafood",
+        "bbq seafood",
+        "black pepper crab"
+      ],
+      "photo_queries": [
+        "chilli-crab-singapore",
+        "black-pepper-crab"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "12:00",
+            "15:00"
+          ],
+          [
+            "18:00",
+            "23:00"
+          ]
+        ],
+        "tue": [
+          [
+            "12:00",
+            "15:00"
+          ],
+          [
+            "18:00",
+            "23:00"
+          ]
+        ],
+        "wed": [
+          [
+            "12:00",
+            "15:00"
+          ],
+          [
+            "18:00",
+            "23:00"
+          ]
+        ],
+        "thu": [
+          [
+            "12:00",
+            "15:00"
+          ],
+          [
+            "18:00",
+            "23:00"
+          ]
+        ],
+        "fri": [
+          [
+            "12:00",
+            "15:00"
+          ],
+          [
+            "18:00",
+            "23:00"
+          ]
+        ],
+        "sat": [
+          [
+            "12:00",
+            "15:00"
+          ],
+          [
+            "18:00",
+            "23:00"
+          ]
+        ],
+        "sun": [
+          [
+            "12:00",
+            "15:00"
+          ],
+          [
+            "18:00",
+            "23:00"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Leanne",
+          "rating": 4,
+          "date": "2026-11-13",
+          "text": "Crab is good and the riverside setting makes it. Pricier than hawker."
+        },
+        {
+          "author": "Adrian",
+          "rating": 4,
+          "date": "2026-10-24",
+          "text": "Touristy but the chilli crab delivers. Book ahead at weekends."
+        }
+      ],
+      "verified": false
+    },
+    {
+      "id": "bugis-junction-food-court",
+      "name": "Bugis Junction (Food Court)",
+      "category": "Others",
+      "region": "Central",
+      "area": "Bugis Junction",
+      "address": "200 Victoria St, #04-01, Singapore 188021",
+      "lat": 1.2996,
+      "lng": 103.8554,
+      "price": "$",
+      "rating": 3.9,
+      "review_count": 1920,
+      "description": "Food outlets at Bugis Junction, a Singapore mall — the exact stalls vary; listing is indicative rather than a specific confirmed outlet.",
+      "specialties": [
+        "mixed rice",
+        "noodles",
+        "dessert",
+        "chicken rice"
+      ],
+      "photo_queries": [
+        "economy-rice",
+        "dessert"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "10:00",
+            "21:30"
+          ]
+        ],
+        "tue": [
+          [
+            "10:00",
+            "21:30"
+          ]
+        ],
+        "wed": [
+          [
+            "10:00",
+            "21:30"
+          ]
+        ],
+        "thu": [
+          [
+            "10:00",
+            "21:30"
+          ]
+        ],
+        "fri": [
+          [
+            "10:00",
+            "21:30"
+          ]
+        ],
+        "sat": [
+          [
+            "10:00",
+            "21:30"
+          ]
+        ],
+        "sun": [
+          [
+            "10:00",
+            "21:30"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Crystal",
+          "rating": 4,
+          "date": "2026-11-06",
+          "text": "Convenient and always open. Dessert stall is good."
+        },
+        {
+          "author": "Francis",
+          "rating": 3,
+          "date": "2026-10-19",
+          "text": "Standard food court. Fine when you're shopping."
+        }
+      ],
+      "verified": false
+    },
+    {
+      "id": "tiong-bahru-market-food-centre",
+      "name": "Tiong Bahru Market Food Centre",
+      "category": "Chinese",
+      "region": "Central",
+      "area": "Tiong Bahru",
+      "address": "30 Seng Poh Rd, Singapore 168898",
+      "lat": 1.285,
+      "lng": 103.831,
+      "price": "$",
+      "rating": 4.3,
+      "review_count": 6120,
+      "description": "A heritage market food centre with chwee kueh, wanton mee and porridge.",
+      "specialties": [
+        "porridge",
+        "wanton mee",
+        "bak chor mee",
+        "popiah"
+      ],
+      "photo_queries": [
+        "porridge",
+        "wanton-mee"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "06:00",
+            "21:00"
+          ]
+        ],
+        "tue": [
+          [
+            "06:00",
+            "21:00"
+          ]
+        ],
+        "wed": [
+          [
+            "06:00",
+            "21:00"
+          ]
+        ],
+        "thu": [
+          [
+            "06:00",
+            "21:00"
+          ]
+        ],
+        "fri": [
+          [
+            "06:00",
+            "21:00"
+          ]
+        ],
+        "sat": [
+          [
+            "06:00",
+            "21:00"
+          ]
+        ],
+        "sun": [
+          [
+            "06:00",
+            "21:00"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Renee",
+          "rating": 5,
+          "date": "2026-11-14",
+          "text": "Chwee kueh at breakfast is a must. Arrive before 9am."
+        },
+        {
+          "author": "Collin",
+          "rating": 4,
+          "date": "2026-10-26",
+          "text": "Wanton mee is top drawer. Seats fill up fast at lunch."
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "novena-velocity-food-court",
+      "name": "Velocity @ Novena Square (Food Court)",
+      "category": "Others",
+      "region": "Central",
+      "area": "Velocity @ Novena Square",
+      "address": "238 Thomson Rd, #03-01, Singapore 307683",
+      "lat": 1.3204,
+      "lng": 103.8438,
+      "price": "$",
+      "rating": 3.9,
+      "review_count": 1320,
+      "description": "Food outlets at Velocity @ Novena Square, a Singapore mall — the exact stalls vary; listing is indicative rather than a specific confirmed outlet.",
+      "specialties": [
+        "mixed rice",
+        "noodles",
+        "western",
+        "chicken rice"
+      ],
+      "photo_queries": [
+        "economy-rice",
+        "hainanese chicken rice"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "09:30",
+            "21:30"
+          ]
+        ],
+        "tue": [
+          [
+            "09:30",
+            "21:30"
+          ]
+        ],
+        "wed": [
+          [
+            "09:30",
+            "21:30"
+          ]
+        ],
+        "thu": [
+          [
+            "09:30",
+            "21:30"
+          ]
+        ],
+        "fri": [
+          [
+            "09:30",
+            "21:30"
+          ]
+        ],
+        "sat": [
+          [
+            "09:30",
+            "21:30"
+          ]
+        ],
+        "sun": [
+          [
+            "09:30",
+            "21:30"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Elena",
+          "rating": 4,
+          "date": "2026-11-03",
+          "text": "Convenient next to the hospital. Good variety."
+        },
+        {
+          "author": "Tze Wei",
+          "rating": 3,
+          "date": "2026-10-16",
+          "text": "Average mall food court but handy location."
+        }
+      ],
+      "verified": false
+    },
+    {
+      "id": "sushi-express-orchard",
+      "name": "Sushi Express (Orchard)",
+      "category": "Japanese",
+      "region": "Central",
+      "area": "Orchard",
+      "address": "181 Orchard Rd, #B1-01, Singapore 238896",
+      "lat": 1.3005,
+      "lng": 103.8396,
+      "price": "$",
+      "rating": 4.0,
+      "review_count": 2140,
+      "description": "A conveyor-belt sushi chain outlet on Orchard Road, quick and cheap for lunch.",
+      "specialties": [
+        "sushi",
+        "sashimi",
+        "ramen",
+        "gyoza"
+      ],
+      "photo_queries": [
+        "sushi-platter",
+        "sashimi"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "11:00",
+            "21:30"
+          ]
+        ],
+        "tue": [
+          [
+            "11:00",
+            "21:30"
+          ]
+        ],
+        "wed": [
+          [
+            "11:00",
+            "21:30"
+          ]
+        ],
+        "thu": [
+          [
+            "11:00",
+            "21:30"
+          ]
+        ],
+        "fri": [
+          [
+            "11:00",
+            "21:30"
+          ]
+        ],
+        "sat": [
+          [
+            "11:00",
+            "21:30"
+          ]
+        ],
+        "sun": [
+          [
+            "11:00",
+            "21:30"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Kenneth",
+          "rating": 4,
+          "date": "2026-11-10",
+          "text": "Cheap and cheerful conveyor sushi. Salmon is decent for the price."
+        },
+        {
+          "author": "Meiqi",
+          "rating": 4,
+          "date": "2026-10-23",
+          "text": "Quick lunch option. Don't expect high-end but it hits the spot."
+        }
+      ],
+      "verified": false
+    },
+    {
+      "id": "ippudo-ramen-somerset",
+      "name": "Ippudo Ramen (Somerset)",
+      "category": "Japanese",
+      "region": "Central",
+      "area": "Somerset",
+      "address": "313 Orchard Rd, #04-01, Singapore 238895",
+      "lat": 1.3009,
+      "lng": 103.8387,
+      "price": "$$",
+      "rating": 4.3,
+      "review_count": 3480,
+      "description": "A tonkotsu ramen chain known for rich pork broth, firm noodles and pork buns.",
+      "specialties": [
+        "ramen",
+        "tonkotsu ramen",
+        "gyoza",
+        "chashu"
+      ],
+      "photo_queries": [
+        "tonkotsu-ramen",
+        "ramen-bowl"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "11:30",
+            "22:00"
+          ]
+        ],
+        "tue": [
+          [
+            "11:30",
+            "22:00"
+          ]
+        ],
+        "wed": [
+          [
+            "11:30",
+            "22:00"
+          ]
+        ],
+        "thu": [
+          [
+            "11:30",
+            "22:00"
+          ]
+        ],
+        "fri": [
+          [
+            "11:30",
+            "22:00"
+          ]
+        ],
+        "sat": [
+          [
+            "11:30",
+            "22:00"
+          ]
+        ],
+        "sun": [
+          [
+            "11:30",
+            "22:00"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Alvin",
+          "rating": 5,
+          "date": "2026-11-16",
+          "text": "Broth is rich and the noodles have proper bite. Worth the queue."
+        },
+        {
+          "author": "Simone",
+          "rating": 4,
+          "date": "2026-10-25",
+          "text": "Ask for hard noodles. Gets busy right at noon."
+        }
+      ],
+      "verified": false
+    },
+    {
+      "id": "sakae-sushi-takashimaya",
+      "name": "Sakae Sushi (Takashimaya)",
+      "category": "Japanese",
+      "region": "Central",
+      "area": "Orchard",
+      "address": "391 Orchard Rd, #B2-01, Singapore 238872",
+      "lat": 1.3026,
+      "lng": 103.832,
+      "price": "$$",
+      "rating": 3.9,
+      "review_count": 1820,
+      "description": "A sushi chain outlet in Takashimaya with conveyor sushi and rice bowls.",
+      "specialties": [
+        "sushi",
+        "sashimi",
+        "unagi",
+        "ramen"
+      ],
+      "photo_queries": [
+        "sushi-platter",
+        "unagi-don"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "11:00",
+            "21:30"
+          ]
+        ],
+        "tue": [
+          [
+            "11:00",
+            "21:30"
+          ]
+        ],
+        "wed": [
+          [
+            "11:00",
+            "21:30"
+          ]
+        ],
+        "thu": [
+          [
+            "11:00",
+            "21:30"
+          ]
+        ],
+        "fri": [
+          [
+            "11:00",
+            "21:30"
+          ]
+        ],
+        "sat": [
+          [
+            "11:00",
+            "21:30"
+          ]
+        ],
+        "sun": [
+          [
+            "11:00",
+            "21:30"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Beverly",
+          "rating": 4,
+          "date": "2026-11-06",
+          "text": "Reliable sushi chain. Unagi rice bowl is good value."
+        },
+        {
+          "author": "Chong Wei",
+          "rating": 3,
+          "date": "2026-10-18",
+          "text": "Fine for a quick meal but nothing memorable."
+        }
+      ],
+      "verified": false
+    },
+    {
+      "id": "korean-fried-chicken-clarke-quay",
+      "name": "Chir Chir Korean Fried Chicken",
+      "category": "Korean",
+      "region": "Central",
+      "area": "Clarke Quay",
+      "address": "3A River Valley Rd, #01-01, Singapore 179020",
+      "lat": 1.2886,
+      "lng": 103.8443,
+      "price": "$$",
+      "rating": 4.2,
+      "review_count": 1980,
+      "description": "Korean fried chicken and beer near Clarke Quay, with soy garlic and spicy wings.",
+      "specialties": [
+        "korean fried chicken",
+        "kimchi stew",
+        "bibimbap",
+        "army stew"
+      ],
+      "photo_queries": [
+        "korean-fried-chicken",
+        "bibimbap"
+      ],
+      "hours": {
+        "mon": [
+          [
+            "11:30",
+            "00:00"
+          ]
+        ],
+        "tue": [
+          [
+            "11:30",
+            "00:00"
+          ]
+        ],
+        "wed": [
+          [
+            "11:30",
+            "00:00"
+          ]
+        ],
+        "thu": [
+          [
+            "11:30",
+            "00:00"
+          ]
+        ],
+        "fri": [
+          [
+            "11:30",
+            "00:00"
+          ]
+        ],
+        "sat": [
+          [
+            "11:30",
+            "00:00"
+          ]
+        ],
+        "sun": [
+          [
+            "11:30",
+            "00:00"
+          ]
+        ]
+      },
+      "reviews": [
+        {
+          "author": "Hui Min",
+          "rating": 5,
+          "date": "2026-11-15",
+          "text": "Soy garlic wings are addictive and properly crunchy."
+        },
+        {
+          "author": "Tobias",
+          "rating": 4,
+          "date": "2026-10-28",
+          "text": "Good late-night option by the river. Portions are huge."
+        }
+      ],
+      "verified": false
+    }
+  ]
+}

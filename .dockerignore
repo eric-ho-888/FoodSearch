@@ -1,0 +1,7 @@
+# Keep build context small — the image only needs backend/.
+tools/
+tests/
+.cache/
+.git/
+__pycache__/
+*.pyc

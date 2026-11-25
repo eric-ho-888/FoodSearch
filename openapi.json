@@ -1,0 +1,716 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "FoodSearch API",
+    "version": "1.0.0",
+    "description": "Search 85 Singapore eateries by dish, cuisine or region (Central, North, North-East, East, West), with opening hours, photos and reviews. Read-only over a bundled demo dataset; no external APIs and no database."
+  },
+  "servers": [
+    {
+      "url": "/"
+    }
+  ],
+  "paths": {
+    "/health": {
+      "get": {
+        "summary": "Readiness probe used by the platform.",
+        "operationId": "health",
+        "responses": {
+          "200": {
+            "description": "The service is up and its dataset loaded.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Health"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/meta": {
+      "get": {
+        "summary": "Describe the dataset: city, categories, popular searches and server time.",
+        "operationId": "getMeta",
+        "responses": {
+          "200": {
+            "description": "Dataset metadata and the current Singapore time.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Meta"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/search": {
+      "get": {
+        "summary": "Search and filter eateries by dish, cuisine, category, open status and location.",
+        "operationId": "searchEateries",
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "description": "Dish or cuisine, e.g. \"satay\", \"mee rebus\", \"nasi lemak\". Partial words, local spellings and one- or two-edit typos are matched; results are marked `relaxed` when only fuzzy matches were found.",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "maxLength": 120
+            }
+          },
+          {
+            "name": "region",
+            "in": "query",
+            "description": "Restrict to a Singapore planning region. Anything else (including \"All\") means every region.",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "enum": [
+                "All",
+                "Central",
+                "North",
+                "North-East",
+                "East",
+                "West"
+              ],
+              "default": "All"
+            }
+          },
+          {
+            "name": "category",
+            "in": "query",
+            "description": "Restrict to one cuisine. Anything else (including \"All\") means every category.",
+            "required": false,
+            "schema": {
+              "$ref": "#/components/schemas/Category"
+            }
+          },
+          {
+            "name": "sort",
+            "in": "query",
+            "description": "Result order. \"distance\" without lat/lng sorts from the city centre.",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "enum": [
+                "relevance",
+                "distance",
+                "rating"
+              ],
+              "default": "relevance"
+            }
+          },
+          {
+            "name": "open",
+            "in": "query",
+            "description": "Only places open at the moment of the request.",
+            "required": false,
+            "schema": {
+              "type": "boolean"
+            }
+          },
+          {
+            "name": "lat",
+            "in": "query",
+            "description": "Latitude to measure distances from; requires lng.",
+            "required": false,
+            "schema": {
+              "type": "number",
+              "minimum": -90,
+              "maximum": 90
+            }
+          },
+          {
+            "name": "lng",
+            "in": "query",
+            "description": "Longitude to measure distances from; requires lat.",
+            "required": false,
+            "schema": {
+              "type": "number",
+              "minimum": -180,
+              "maximum": 180
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Matching eateries plus the filters that were applied.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SearchResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/eateries/{eatery_id}": {
+      "get": {
+        "summary": "Fetch one eatery with its full weekly hours and all reviews.",
+        "operationId": "getEatery",
+        "parameters": [
+          {
+            "name": "eatery_id",
+            "in": "path",
+            "required": true,
+            "description": "Slug identifier, e.g. \"328-katong-laksa\".",
+            "schema": {
+              "type": "string",
+              "pattern": "^[a-z0-9-]+$"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The eatery.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/EateryDetail"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "No eatery with that id.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Category": {
+        "type": "string",
+        "enum": [
+          "Chinese",
+          "Malay",
+          "Indian",
+          "Western",
+          "Japanese",
+          "Korean",
+          "Others"
+        ]
+      },
+      "Health": {
+        "type": "object",
+        "required": [
+          "ok"
+        ],
+        "properties": {
+          "ok": {
+            "type": "boolean",
+            "const": true
+          }
+        }
+      },
+      "Error": {
+        "type": "object",
+        "required": [
+          "error"
+        ],
+        "properties": {
+          "error": {
+            "type": "string",
+            "description": "Machine-readable error code, e.g. \"not_found\"."
+          },
+          "id": {
+            "type": "string",
+            "description": "The id that was requested, echoed back."
+          }
+        }
+      },
+      "Meta": {
+        "type": "object",
+        "required": [
+          "city",
+          "timezone",
+          "now",
+          "categories",
+          "popular",
+          "total",
+          "default_center",
+          "note",
+          "regions"
+        ],
+        "properties": {
+          "city": {
+            "type": "string"
+          },
+          "timezone": {
+            "type": "string",
+            "description": "IANA zone the opening hours are evaluated in."
+          },
+          "now": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "categories": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Category"
+            }
+          },
+          "popular": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "total": {
+            "type": "integer",
+            "description": "Number of eateries in the dataset."
+          },
+          "default_center": {
+            "$ref": "#/components/schemas/Coordinates"
+          },
+          "note": {
+            "type": "string",
+            "description": "Data disclaimer."
+          },
+          "regions": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Region"
+            },
+            "description": "The region tabs, in display order."
+          }
+        }
+      },
+      "Coordinates": {
+        "type": "object",
+        "required": [
+          "lat",
+          "lng"
+        ],
+        "properties": {
+          "lat": {
+            "type": "number"
+          },
+          "lng": {
+            "type": "number"
+          },
+          "label": {
+            "type": "string"
+          }
+        }
+      },
+      "SearchMeta": {
+        "type": "object",
+        "required": [
+          "query",
+          "category",
+          "region",
+          "sort",
+          "open_only",
+          "relaxed",
+          "count",
+          "total",
+          "now",
+          "timezone",
+          "origin",
+          "distance_reference",
+          "city",
+          "note"
+        ],
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "The query as submitted (after trimming and length-capping)."
+          },
+          "category": {
+            "type": "string",
+            "description": "\"All\" or the category that was applied."
+          },
+          "region": {
+            "type": "string",
+            "description": "\"All\" or the region that was applied."
+          },
+          "sort": {
+            "type": "string",
+            "enum": [
+              "relevance",
+              "distance",
+              "rating"
+            ]
+          },
+          "open_only": {
+            "type": "boolean"
+          },
+          "relaxed": {
+            "type": "boolean",
+            "description": "True when no exact match existed and fuzzy matches were returned instead."
+          },
+          "count": {
+            "type": "integer"
+          },
+          "total": {
+            "type": "integer"
+          },
+          "now": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Singapore time the open/closed state was computed for."
+          },
+          "timezone": {
+            "type": "string"
+          },
+          "origin": {
+            "nullable": true,
+            "description": "The lat/lng that was accepted from the request, if any.",
+            "allOf": [
+              {
+                "$ref": "#/components/schemas/Coordinates"
+              }
+            ]
+          },
+          "distance_reference": {
+            "nullable": true,
+            "description": "Where distances are measured from when sorting by distance; null otherwise.",
+            "allOf": [
+              {
+                "$ref": "#/components/schemas/Coordinates"
+              }
+            ]
+          },
+          "city": {
+            "type": "string"
+          },
+          "note": {
+            "type": "string"
+          }
+        }
+      },
+      "SearchResponse": {
+        "type": "object",
+        "required": [
+          "meta",
+          "results"
+        ],
+        "properties": {
+          "meta": {
+            "$ref": "#/components/schemas/SearchMeta"
+          },
+          "results": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Eatery"
+            }
+          }
+        }
+      },
+      "OpenState": {
+        "type": "object",
+        "required": [
+          "open",
+          "status",
+          "detail",
+          "today"
+        ],
+        "properties": {
+          "open": {
+            "type": "boolean"
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "Open",
+              "Closed"
+            ]
+          },
+          "detail": {
+            "type": "string",
+            "description": "Human-readable next transition, e.g. \"closes 7:30 pm\" or \"opens 10:00 am tomorrow\"."
+          },
+          "today": {
+            "type": "string",
+            "description": "Today's opening ranges, e.g. \"10:00 am – 7:30 pm\" or \"Closed today\"."
+          }
+        }
+      },
+      "Photo": {
+        "type": "object",
+        "required": [
+          "file",
+          "src"
+        ],
+        "properties": {
+          "file": {
+            "type": "string",
+            "description": "Bundled filename under /static/photos/."
+          },
+          "src": {
+            "type": "string",
+            "description": "URL path the browser fetches, e.g. \"/static/photos/x-1.jpg\"."
+          },
+          "article": {
+            "type": "string",
+            "description": "The dish the photo illustrates."
+          },
+          "title": {
+            "type": "string",
+            "description": "Original Wikimedia Commons file title."
+          },
+          "source": {
+            "type": "string",
+            "description": "Commons description page."
+          },
+          "artist": {
+            "type": "string"
+          },
+          "license": {
+            "type": "string"
+          },
+          "license_url": {
+            "type": "string"
+          }
+        }
+      },
+      "Review": {
+        "type": "object",
+        "required": [
+          "author",
+          "rating",
+          "date",
+          "text",
+          "date_display"
+        ],
+        "properties": {
+          "author": {
+            "type": "string"
+          },
+          "rating": {
+            "type": "number",
+            "description": "Whole stars, 1–5."
+          },
+          "date": {
+            "type": "string",
+            "format": "date"
+          },
+          "date_display": {
+            "type": "string",
+            "description": "The date rendered for display, e.g. \"16 Nov 2026\"."
+          },
+          "text": {
+            "type": "string"
+          }
+        }
+      },
+      "WeeklyHours": {
+        "type": "object",
+        "required": [
+          "day",
+          "text",
+          "today"
+        ],
+        "properties": {
+          "day": {
+            "type": "string",
+            "description": "Full weekday name."
+          },
+          "text": {
+            "type": "string",
+            "description": "The day's ranges, or \"Closed\"."
+          },
+          "today": {
+            "type": "boolean"
+          }
+        }
+      },
+      "Eatery": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "category",
+          "region",
+          "area",
+          "address",
+          "description",
+          "price",
+          "rating",
+          "review_count",
+          "specialties",
+          "matched_specialties",
+          "chips",
+          "photos",
+          "open",
+          "hours_today",
+          "distance_km",
+          "distance_label",
+          "top_review",
+          "reviews",
+          "maps_url"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "category": {
+            "$ref": "#/components/schemas/Category"
+          },
+          "region": {
+            "$ref": "#/components/schemas/Region"
+          },
+          "area": {
+            "type": "string"
+          },
+          "address": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "price": {
+            "type": "string",
+            "description": "Price band, e.g. \"$\" or \"$$$\"."
+          },
+          "rating": {
+            "type": "number",
+            "description": "Average rating, 0–5."
+          },
+          "review_count": {
+            "type": "integer"
+          },
+          "specialties": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "matched_specialties": {
+            "type": "array",
+            "description": "Up to three specialties that matched the query.",
+            "items": {
+              "type": "string"
+            }
+          },
+          "chips": {
+            "type": "array",
+            "description": "Up to four labels to show on the card, matched specialties first.",
+            "items": {
+              "type": "string"
+            }
+          },
+          "photos": {
+            "type": "array",
+            "description": "Up to two bundled photos with their Commons attribution.",
+            "items": {
+              "$ref": "#/components/schemas/Photo"
+            }
+          },
+          "open": {
+            "$ref": "#/components/schemas/OpenState"
+          },
+          "hours_today": {
+            "type": "string"
+          },
+          "distance_km": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "description": "Distance from the request's lat/lng; null when no location was given."
+          },
+          "distance_label": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "The distance rendered for display, e.g. \"480 m away\"."
+          },
+          "top_review": {
+            "nullable": true,
+            "description": "The highest-rated review, if any.",
+            "allOf": [
+              {
+                "$ref": "#/components/schemas/Review"
+              }
+            ]
+          },
+          "reviews": {
+            "type": "array",
+            "description": "All bundled reviews, highest rated first.",
+            "items": {
+              "$ref": "#/components/schemas/Review"
+            }
+          },
+          "maps_url": {
+            "type": "string",
+            "description": "Google Maps search link for the place."
+          }
+        }
+      },
+      "EateryDetail": {
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/Eatery"
+          },
+          {
+            "type": "object",
+            "required": [
+              "hours_week",
+              "review_summary"
+            ],
+            "properties": {
+              "hours_week": {
+                "type": "array",
+                "description": "Seven entries, Monday first.",
+                "items": {
+                  "$ref": "#/components/schemas/WeeklyHours"
+                }
+              },
+              "review_summary": {
+                "type": "object",
+                "required": [
+                  "count",
+                  "average",
+                  "shown"
+                ],
+                "properties": {
+                  "count": {
+                    "type": "integer",
+                    "description": "Total reviews reported for the place."
+                  },
+                  "average": {
+                    "type": "number"
+                  },
+                  "shown": {
+                    "type": "integer",
+                    "description": "How many reviews are included in `reviews`."
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "Region": {
+        "type": "string",
+        "enum": [
+          "Central",
+          "North",
+          "North-East",
+          "East",
+          "West"
+        ]
+      }
+    }
+  }
+}
